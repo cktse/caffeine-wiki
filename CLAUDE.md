@@ -25,6 +25,30 @@ Research goal: create a model to connect all variables in coffee production whic
 
 ---
 
+## Sourcing Discipline (strict grounding rule)
+
+**Substantive claims** (on `sources/`, `concepts/`, `entities/`) are filed **only from a credible raw source**. Structural files (`index`, `log`, `overview`) are derived and exempt.
+
+- **Credible** = peer-reviewed / reputable practitioner / industry / reference works.
+- **Not credible** = marketing blogs, product labels, chat inference.
+
+| Source tier | May file? | Needs user confirmation? | Flag |
+|---|---|---|---|
+| Credible source | yes | no | — |
+| First-party record (label, personal log) | yes | no | **mandatory** (provenance; label → commercial-bias) |
+| Ungrounded (chat reasoning, speculation) | exception only | **yes** | provisional |
+
+**Hard rules:**
+
+1. First-party records are filed **"as-stated / claimed," never as asserted fact.**
+2. **Never launder** a claimed attribute into an asserted fact on another page without corroboration.
+3. **Materialize** first-party data into `raw/` where possible → it then counts as a normal source.
+4. **Escalate on impact:** if a claim would become a cross-domain fact or drive a decision, **verify or hold**.
+
+**Flag types:** `provenance` (where it came from) · `grounding` (provisional, pending a source) · `quality` (known bias, e.g. commercial).
+
+---
+
 ## Directory Structure
 
 ```
@@ -222,7 +246,7 @@ python3 .claude/scripts/export-session.py --trigger manual --label confidential
 title: "Full Title of Source"
 domain: DOMAIN_1 | DOMAIN_2 | DOMAIN_3 | DOMAIN_4
 date_ingested: YYYY-MM-DD
-source_type: article | paper | book_chapter | podcast | video | memo | report | other
+source_type: article | paper | book_chapter | podcast | video | memo | report | personal_log | other
 tags: []
 raw_path: raw/DOMAIN/filename.md
 ---
@@ -317,6 +341,14 @@ started: YYYY-MM-DD
 > Add domain-specific page formats below. See examples/domains/ for reference.
 > For example, a "reading" domain might add a "books/TITLE.md" format.
 > A "health" domain might add a "logs/DATE.md" format for daily tracking.
+>
+> **Personal logs (`source_type: personal_log`)**: brewing and roasting keep first-party
+> brew/roast logs under a `logs/` subfolder. They are first-party records — materialized
+> into `raw/` (e.g. a Bean Conqueror export) so they count as sources (see Sourcing
+> Discipline). Brew logs and roast logs are **separate pages**, coupled by `brew_target`
+> (roast → intended brew method) and `roast_provenance` (brew → roast consumed).
+> *Exact frontmatter/columns are still being designed (bean schema on top of the brew
+> schema) — not fixed here.*
 
 ---
 
@@ -362,7 +394,7 @@ A single ingest typically touches 8–15 wiki pages. That is expected and good.
 2. Read `wiki/index.md` to find relevant pages
 3. Read those pages, drill into linked pages as needed
 4. Synthesize answer with inline citations: `[[wiki/domain/path]]`
-5. Ask: *"Should I file this answer as a wiki page?"*
+5. Ask: *"Should I file this answer as a wiki page?"* — but only file if grounded by a credible source (see Sourcing Discipline); otherwise keep it in chat and offer to hold.
 
 Good answers are knowledge — they should compound in the wiki, not disappear.
 
@@ -375,8 +407,9 @@ bash .claude/scripts/recall.sh --date 2026-03
 Searches all indexed session exports. Falls back to grep if SQLite returns nothing.
 
 ### DIGEST — `> digest sessions`
-Scan `sessions/exports/` for undigested sessions. Extract structured knowledge.
-File as wiki pages. Move processed files to `sessions/wiki-digests/`.
+Scan `sessions/exports/` for undigested sessions. Extract structured knowledge. File only
+source-referencing extracts; route anything ungrounded to hold/confirm-and-flag (see
+Sourcing Discipline). Move processed files to `sessions/wiki-digests/`.
 Log: `## [YYYY-MM-DD] digest | sessions | N sessions → M wiki pages`
 
 During digest, look for:
@@ -397,8 +430,9 @@ Check for:
 Suggest: new sources to find, new questions worth pursuing.
 
 ### UPDATE — `> update [domain] [path]`
-Update a specific wiki page from information provided in chat (no raw file needed).
-Use for: quick corrections, meeting notes, decisions from conversations.
+Update a wiki page from information provided in chat. A chat-only update is the **ungrounded
+tier** (see Sourcing Discipline): allowed only with **user confirmation + a provisional flag**.
+Well-grounded fixes (typos, a decision the user is stating) are exempt.
 
 ### CUSTOMIZE — `> customize`
 Interactive walkthrough: replace DOMAIN_1/2/3/4 placeholders with real domain names,
@@ -480,6 +514,15 @@ write the three hook scripts to `.claude/scripts/`, initialize `sessions.db`.
 - Prefer specificity over generality. Precise claims age better than vague ones.
 - Short pages with good links beat long sprawling pages no one re-reads.
 - The log and session exports are sacred — never edit history.
+
+## Memory & Persistence
+
+Durable rules, preferences, and decisions live **in-repo**, version-controlled — never in external sidecar files (e.g. `~/.claude/…/memory/`).
+
+- **Rules / preferences / conventions** → this `CLAUDE.md`, in the relevant section.
+- **Knowledge** → a wiki page (per Sourcing Discipline).
+- **No sidecar files:** do not create memory / notes / scratch files outside the repo, nor new top-level files inside it, without explicit consideration and user sign-off.
+- **Write only within the project folder**; use `scratchpad/` (gitignored) for transient drafts.
 
 ## Formatting Notes
 - Obsidian requires a blank line before a Markdown table
