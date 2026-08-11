@@ -1,6 +1,6 @@
 # Coffee Knowledge Base — Overview
 
-High-level synthesis across all three domains. Updated as the wiki grows.
+High-level synthesis across all four domains. Updated as the wiki grows.
 
 ---
 
@@ -8,10 +8,10 @@ High-level synthesis across all three domains. Updated as the wiki grows.
 
 | Domain | Purpose | Key Pages |
 |---|---|---|
-| [Processing](processing/overview.md) | How green coffee is extracted from the cherry | Methods, fermentation, drying |
 | [Varietals](varietals/overview.md) | Coffee plant genetics — species, varietals, hybrids | Arabica, Robusta, regional varieties |
-| [Brewing](brewing/overview.md) | Extraction methods and recipes | Pour-over, espresso |
+| [Processing](processing/overview.md) | How green coffee is extracted from the cherry | Methods, fermentation, drying |
 | [Roasting](roasting/overview.md) | Roasting profiles matched to green coffee and processing | Drum roaster (Aillio Bullet R2 Pro); parameters; decision table |
+| [Brewing](brewing/overview.md) | Extraction methods and recipes | Pour-over, espresso |
 
 ---
 
@@ -29,4 +29,4 @@ The central chain: **green bean selection** (varietal, origin, processing) drive
 
 ---
 
-*Last updated: 2026-06-25*
+*Last updated: 2026-08-11*
