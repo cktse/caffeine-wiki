@@ -101,7 +101,9 @@ my-wiki/
 │   └── scripts/
 │       ├── export-session.py
 │       ├── index-sessions.sh
-│       └── recall.sh
+│       ├── recall.sh
+│       ├── sweep-sessions.py
+│       └── refresh-from-baseline.sh   # sync core scripts from upstream baseline
 │
 ├── .exportignore                 # Patterns excluded from FTS5 index
 ├── .gitignore
