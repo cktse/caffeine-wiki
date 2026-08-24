@@ -69,7 +69,7 @@ Primarily Indonesia:
 
 ## Cross-Domain Connections
 
-- **Processing domain**: Wet Hulling belongs here as a distinct processing method — significantly different from washed, natural, and honey even though it starts with a pulping step. See [[processing/concepts/]] for other methods.
+- **Processing domain**: Wet Hulling belongs here as a distinct processing method — significantly different from washed, natural, and honey even though it starts with a pulping step. See [[processing/overview]] for other methods.
 - **Varietals domain**: Wet Hulling is why Sumatran Typica and Catimor taste different from the same varieties grown elsewhere. See [[varietals/entities/indonesia]].
 - **Brewing domain**: Medium to medium-dark roast is the recommended approach; heavy body responds differently to grind, ratio, and water temperature than light-roasted origins. See [[brewing/overview]] for origin-based recommendations.
 
