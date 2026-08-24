@@ -1323,3 +1323,20 @@ Schema-iteration notes:
 - No entity pages minted.
 
 ---
+
+## [2026-08-24] lint | brewing | Structure clean; Yunnan source misfiled; espresso/water coverage gaps
+
+Scope: brewing domain — 44 pages (1 overview · 15 sources · 12 concepts · 13 entities · 3 logs).
+
+Structure: **healthy.** No dead links. Only orphans are the 3 log pages (expected leaves; referenced from index). No contradictions or stale claims (Gagné↔Rao astringency tension already documented as a tension; 4:6 vs 2026-V60 differences noted as different systems).
+
+Findings (actionable):
+1. **Misfiled/provisional: `brewing/sources/yunnan-purple-caturra-k72-label`** — `source_type: other`, `raw_path: none` (bag label + first-party dialed recipe, filed as a "source" before the personal_log system). Not a credible source under Sourcing Discipline. **Recommend migrating → `brewing/logs/yunnan-purple-caturra-k72.md` (`personal_log`)**; resolves the long-standing provisional Yunnan cluster. Note: `brewing/concepts/bypass` cites it as its worked example — link updates on migration.
+2. **Espresso coverage thin** vs pour-over (6+ pour-over concept pages; espresso only `espresso-fundamentals`). Decent profiles (Blooming/Allongé/Turbo/Filter3) live only in `rao-allonge`/`rao-blooming` sources + `decent-espresso` entity + the new espresso log. Suggest a `brewing/concepts/espresso-profiles` concept (grounded by existing Rao sources).
+3. **No water/minerals concept** — referenced piecemeal (46-method 30–50 mg/L; roaster PPM recs) but no page. Needs a credible source first (SCA Water Standard / Hendon & Colonna-Dashwood "Water for Coffee") → then `brewing/concepts/water`.
+
+Observation (not a defect): all 3 brewing logs land **EY ~22%** (21.9–22.2%) across different beans/temps — likely Neo Switch immersion + O78S @17 pushing extraction; watch as data accumulates (candidate "Neo Switch extraction tendency" note).
+
+Actions taken: none yet (findings only). Pending: (1) Yunnan migration; (2) espresso-profiles concept; (3) water source hunt.
+
+---
