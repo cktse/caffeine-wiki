@@ -32,7 +32,7 @@ tags:
 
 > First-party brew log. Bean-identity fields are recorded **as claimed** by the seller (Cokain / 集氣箱 Entrebox) — a marketing source, so grade/rarity claims ("Gold Label = top 10%", "chosen for competitions") carry commercial bias; linked out, not asserted as facts (see Sourcing Discipline). The **Agtron 75.8** roast reading is first-party (measured), unlike the label's "Medium-Light."
 
-Context (as claimed): [[varietals/entities/ethiopia]] · [[varietals/concepts/geisha]] — Gesha Village claims to be the genetic homeland of Gesha; "Gesha 1931" is the estate's own selection. Natural process.
+Context (as claimed): [[varietals/entities/ethiopia|Ethiopia]] · [[varietals/concepts/geisha|Gesha]] — Gesha Village claims to be the genetic homeland of Gesha; "Gesha 1931" is the estate's own selection. Natural process.
 
 ## Recommended Recipe
 
@@ -54,7 +54,7 @@ None provided by the seller — the product page gives flavour notes (orange / g
 3. **Closed** → pour to 250 g at **70 °C** — cold immersion
 4. **Open** after steeping ~30 s — drain
 
-**Read:** EY ~22.2% is **high** (top of the 18–22% band) — the 4-min draw (vs. 3-min target) ran slow, pushing extraction up; TDS 1.56% is a strong cup. The hot-main + 70 °C cold tail follows Kasuya's hot→cold Switch logic ([[brewing/concepts/neo-switch]]) and suppresses the late astringency that high EY would otherwise risk ([[shared/astringency]]). Plots upper-mid/high on the [[brewing/concepts/brewing-control-chart]].
+**Read:** EY ~22.2% is **high** (top of the 18–22% band) — the 4-min draw (vs. 3-min target) ran slow, pushing extraction up; TDS 1.56% is a strong cup. The hot-main + 70 °C cold tail follows Kasuya's hot→cold Switch logic ([[brewing/concepts/neo-switch|Neo Switch]]) and suppresses the late astringency that high EY would otherwise risk ([[shared/astringency|astringency]]). Plots upper-mid/high on the [[brewing/concepts/brewing-control-chart|Brewing Control Chart]].
 
 ## TODO
 - If it reads drying/over-extracted, coarsen or pull nearer the 3-min target (the slow 4-min draw drove EY up).
