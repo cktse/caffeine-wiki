@@ -1363,3 +1363,32 @@ Collateral link fixes:
 Yunnan / K72 can be re-created later from a credible source.
 
 ---
+
+## [2026-08-24] ingest | varietals | 德热296 / Dr296 — "Yunnan Purple-Leaf Caturra" is actually a Catimor (misnomer corrected)
+
+Right after removing the label-grounded Yunnan cluster, ingested a credible-enough source that **corrects** what the cluster got wrong: the Yunnan "purple-leaf caturra" is not a Bourbon-Caturra — it's DTARI's Dr296, a Catimor.
+
+Source: raw/varietals/国货之光——云南"德热296"是什么？.md (guchaju.com, 2024)
+Credibility: article itself Low-Medium (commercial content site), but core identity **corroborated → Medium-High**:
+- Official MoA germplasm registry (ctcgris.cn) confirms Dr296 is a real DTARI selection; DTARI certified stock = Catimor CIFC 7963 + Dr series (Dr3, Dr132).
+- Peer-reviewed Frontiers 2025 (RAD-seq) on DTARI's Dehong collection → Bourbon/Typica + Ethiopian + Introgression(Catimor) groups.
+- English trade: Dehong "Catimor P4 (7963)" @ ~1700m; Yunnan = Catimor country.
+Exact "mutation of Catimor 7963" parentage + cup/bean claims remain Medium/single-source (as-claimed).
+
+Pages created:
+- varietals/sources/dr296-guchaju-2024.md
+- varietals/concepts/dr296.md
+
+Pages updated:
+- varietals/concepts/introgressed-varieties.md — added 德热/Dr series (DTARI Catimor CIFC 7963 family: Dr296/Dr3/Dr132/Dr48-1/Dr199-1)
+- varietals/concepts/caturra.md — "not to be confused with" disambiguation (Dr296 = Catimor; Colombia Purple Caturra = real Caturra)
+- wiki/index.md — source + concept rows; caturra row note
+- wiki/log.md — this entry
+
+Key correction: "Yunnan Purple-Leaf Caturra" is a marketing **misnomer** for Dr296, a DTARI Catimor (introgressed, rust-resistant). Two distinct "purple caturras": Colombia's genuine Purple Caturra vs Yunnan's Dr296 (Catimor).
+
+Process note: user flagged the naming concern → escalated to web research per Sourcing Discipline (verify high-impact claims) → grounding upgraded from single commercial source to corroborated (official registry + peer-reviewed context) before filing.
+
+Follow-ups: Frontiers 2025 RAD-seq = a good standalone source for Chinese coffee genetics (worth its own ingest); DTARI could be a varietals entity; K72 processing concept re-creatable from this source (cross-domain).
+
+---

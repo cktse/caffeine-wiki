@@ -49,6 +49,7 @@ Brazil has **two distinct introgression routes**, and — importantly — its be
 - **Catimor / "Ateng"** (Indonesia/Sumatra) — local name "Ateng" used in Sumatra; the dominant Arabica variety grown in Sumatra today; same Timor Hybrid × Caturra parentage as other Catimors; cup presents bright citrus acidity (distinct in the Indonesian context, where Wet Hulling typically suppresses acidity)
 - **S795 / Line S** (India/Indonesia) — developed India 1940s; disease resistant; cup: refined sweetness, fruit, nuts, brown sugar, occasional spice, full round body; widely grown in Sumatra; WCR genetic classification not yet verified from wiki sources
 - **RAB C15** (India) — *not* Timor Hybrid based; created from Arabusta (different arabica × robusta cross) × Kent variety
+- **德热 / Dr series** (Yunnan, China) — DTARI (德宏热带农业科学研究所) selections in the **Catimor CIFC 7963** family, nationally certified: **[[concepts/dr296|Dr296]]**, Dr3, Dr132, Dr48-1, Dr199-1. Dr296 is the purple-leaf one marketed as "Yunnan Purple-Leaf Caturra" — a **misnomer** (it's a Catimor, not a Bourbon-Caturra). Confirms that most of Yunnan's cultivation, including its "specialty" purple-leaf lots, sits in the introgressed Catimor family. Sources: [[sources/dr296-guchaju-2024]] + official MoA germplasm registry (corroborated).
 
 ## Trade-offs
 

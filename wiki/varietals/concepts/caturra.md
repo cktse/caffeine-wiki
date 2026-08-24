@@ -17,6 +17,8 @@ A workhorse of Latin-American production and the parent of several major cultiva
 - **Colombia / Castillo** = Caturra × Timor Hybrid (see [[concepts/introgressed-varieties]])
 - **Catimor** group generally = Caturra × Timor Hybrid
 
+> **Not to be confused with "云南紫叶卡杜拉 / Yunnan Purple-Leaf Caturra" (德热296 / Dr296)** — despite the name, that's a **Catimor** (introgressed), not a Caturra. See [[concepts/dr296]]. Colombia's **Purple Caturra**, by contrast, *is* a genuine Caturra colour variant.
+
 ## Why It Matters (in this domain)
 
 - **Lineage:** firmly Bourbon — predicts Bourbon-family sweetness/balance, and the rust-susceptibility that motivated its introgressed descendants.
