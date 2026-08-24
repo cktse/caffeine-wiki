@@ -1340,3 +1340,26 @@ Observation (not a defect): all 3 brewing logs land **EY ~22%** (21.9–22.2%) a
 Actions taken: none yet (findings only). Pending: (1) Yunnan migration; (2) espresso-profiles concept; (3) water source hunt.
 
 ---
+
+## [2026-08-24] update | all | Removed the provisional "Yunnan cluster"; refactored Purple Leaf Caturra → Caturra
+
+Decision: start Yunnan from scratch (the cluster was label-grounded, no credible source). Removed the label-derived pages and repaired collateral links. (Historical ingest/query entries above are preserved — append-only log.)
+
+Deleted:
+- brewing/sources/yunnan-purple-caturra-k72-label (label + first-party recipe; source_type other, raw_path none — not a credible source)
+- processing/concepts/k72-washed (label-derived, protocol unverified)
+- varietals/entities/china-yunnan (label + general-knowledge seeded)
+
+Refactored:
+- varietals/concepts/purple-leaf-caturra → **varietals/concepts/caturra** — kept the WCR-grounded general Caturra facts (Bourbon dwarf mutation; parent of Catuaí and Colombia/Castillo; CLR-susceptible), dropped the Purple-Leaf phenotype / Yunnan / K72 label content. Grounded in wcr-arabica-varieties-catalog-2025 + history-of-arabica-wcr.
+
+Kept (not Yunnan): brewing/concepts/bypass — grounded in the Guinard BCC paper; removed only its Yunnan worked-example section.
+
+Collateral link fixes:
+- varietals/concepts/catuai + varietals/entities/brazil → repointed purple-leaf-caturra → caturra
+- brewing/logs/cokain-strawberry-chloris-blend → unlinked china-yunnan (plain "Yunnan")
+- wiki/index.md → removed 3 rows; swapped purple-leaf-caturra row → caturra
+
+Yunnan / K72 can be re-created later from a credible source.
+
+---

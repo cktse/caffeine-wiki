@@ -40,7 +40,6 @@ per page, enough context to know whether to drill in.
 | [[processing/concepts/fermentation]] | Aerobic vs. CO₂/anaerobic; sucrose/CGA/elaidic/linoleic markers; SCA score table; altitude and cherry prep as key variables | processing | 2026-06-22 |
 | [[processing/concepts/anaerobic-fermentation]] | SIAF (+3–4 pts; fruity/sweet) vs. CO₂ injection (P3=86.90; liquor-like/silky); comparison table; mycotoxin (Fusarium) sourcing risk | processing | 2026-06-22 |
 | [[processing/concepts/processing-terminology]] | Terminology disambiguation: natural/anaerobic/carbonic are imprecise; Kornman recommends "dried in cherry" and "sealed-tank"; carries Kornman's Processing Flowchart as full searchable step × method table (washed/honey defined at drying; eco-pulped vs washed; carbonic ⊂ sealed-tank whole cherry); Brazilian semidry = cereja descascado (CD); sourcing implications | processing | 2026-08-01 |
-| [[processing/concepts/k72-washed]] | K72 washed — extended (~72h) controlled-ferment washed process; more aromatic lift than standard washed, cleaner than natural/anaerobic; fits "amplify sweetness, avoid winey" preference; label-sourced, protocol unstandardized (Yunnan/Colombia) | processing | 2026-08-01 |
 | [[processing/concepts/mucilage]] | Pectin-rich layer defining honey process levels (white→black) | processing | 2026-06-17 |
 | [[processing/concepts/drying]] | Moisture reduction post-processing; raised beds vs. patio vs. mechanical | processing | 2026-06-17 |
 
@@ -79,7 +78,7 @@ per page, enough context to know whether to drill in.
 |---|---|---|---|
 | [[varietals/concepts/terroir]] | Environmental origin factors (altitude/soil/climate/shading nuance) — Layer 1 of coffee terroir; Panama Geisha empirical evidence; see [[shared/terroir]] for full cross-domain framework | varietals | 2026-06-25 |
 | [[varietals/concepts/chiroso]] | Chiroso group — three Colombian endemic varieties (CCH/BCH/CHCH); Ethiopian Only, Eastern Ethiopia (Berbere); NOT related to Caturra or Bourbon despite names; 1,950–2,100m; $45/pound; CCH profile: sweet/citric/juicy/floral (60h extended fermentation); intra-Antioquia terroir confirmed (El Peñol 2,100m highest) | varietals | 2026-06-25 |
-| [[varietals/concepts/purple-leaf-caturra]] | Purple Leaf Caturra — Caturra (Bourbon dwarf mutation, Brazil ~1915) with anthocyanin purple-tip phenotype; CLR-susceptible; grown in Yunnan; "purple leaf" not a confirmed distinct cultivar; treat as bright washed | varietals | 2026-08-01 |
+| [[varietals/concepts/caturra]] | Caturra — Bourbon dwarf single-gene mutation (Brazil ~1915); compact/high-yield, CLR-susceptible; WCR "good"; parent of Catuaí and Colombia/Castillo (× Timor Hybrid); Latin-American workhorse | varietals | 2026-08-24 |
 | [[varietals/concepts/mundo-novo]] | Mundo Novo — natural Typica × Bourbon hybrid (Brazil, IAC 1940s); Bourbon-Typica group; "good" quality; ~80% of Brazilian Arabica with Catuaí; parent of Catuaí; absent from COE Brazil tops 2019–22 (workhorse, not peak) | varietals | 2026-08-01 |
 | [[varietals/concepts/catuai]] | Catuaí — Mundo Novo × Caturra (Brazil, IAC 1972); compact/dwarf; red & yellow forms; 13 cultivars under one name; "good" quality; dominated top COE Brazil lots 2019–22 (the top-tier-capable Brazilian workhorse) | varietals | 2026-08-01 |
 | [[varietals/concepts/geisha]] | Geisha/Gesha — Ethiopian landrace; bergamot/jasmine fingerprint; Panama Boquete/Tierras Altas/Renacimiento terroir profiles; $10,013/kg auction record | varietals | 2026-06-24 |
@@ -109,7 +108,6 @@ per page, enough context to know whether to drill in.
 | [[varietals/entities/panama]] | Panama — Geisha heartland; Boquete/Tierras Altas/Renacimiento/Potrerillos Arriba zones; Volcán Barú volcanic soils; SCAP Best of Panama; record $10,013/kg 2024 | varietals | 2026-06-24 |
 | [[varietals/entities/yemen]] | Yemen — primary arabica domestication center; 3 genetic clusters (Yemen Typica-Bourbon/SL-34/New-Yemen); Mocha port heritage; extreme growing conditions; New-Yemen as potential climate-resilience reservoir | varietals | 2026-06-24 |
 | [[varietals/entities/brazil]] | Brazil — world's largest producer (~⅓; 66% Arabica); Mundo Novo+Catuaí ~80% of Arabica; introgressed (HdT+Icatu) reach 90+ COE; semidry/CD dominant; Minas Gerais 82% of specialty area; one of cheapest specialty origins (avg $4.43/kg, score 83); BSCA; dense public-research base | varietals | 2026-08-01 |
-| [[varietals/entities/china-yunnan]] | Yunnan, China — ~95%+ of China's coffee (Pu'er/Baoshan/Dehong); legacy Catimor commodity → emerging specialty (Caturra/Bourbon/Typica + K72/experimental process); high-grown washed = bright/floral; label + general-knowledge seeded | varietals | 2026-08-01 |
 
 ---
 
@@ -118,7 +116,6 @@ per page, enough context to know whether to drill in.
 ### Sources
 | Page | Description | Domain | Updated |
 |---|---|---|---|
-| [[brewing/sources/yunnan-purple-caturra-k72-label]] | Yunnan Purple Leaf Caturra K72 washed — bag label + dialed recipe; roaster's 1:13 rec critiqued; CK's 15g/1:15+bypass V60 measured at TDS 1.43%/EY ~20.5%; anchoring example for bypass | brewing | 2026-08-01 |
 | [[brewing/sources/hario-switch-review-coffee-chronicler]] | Coffee Chronicler review; 50/50 Switch recipe by Asser Christensen | brewing | 2026-06-17 |
 | [[brewing/sources/tetsu-kasuya-devil-recipe-hario-switch]] | Kasuya's devil recipe; 1:14, 90°C→70°C temperature drop, 30-sec immersion | brewing | 2026-06-17 |
 | [[brewing/sources/kasuya-2025-new-hybrid-hario-switch]] | Kasuya 2025; 1:15, closed immersion bloom, 3-phase structure; "very sweet cup" | brewing | 2026-06-17 |

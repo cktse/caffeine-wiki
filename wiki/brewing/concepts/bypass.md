@@ -48,17 +48,6 @@ The key move: **bypass changes TDS but not the numerator's product** — the sol
 
 **On the Brewing Control Chart, bypass is a straight vertical move.** In [[concepts/brewing-control-chart]] terms (TDS vertical, percent-extraction PE horizontal), the through-bed brew sits at one (PE, TDS) point; adding bypass lowers TDS at constant PE, sliding the cup **straight down** — away from the high-TDS bitter/astringent upper band toward the lower 'sweet'/cleaner zone. That is the chart-level reason a bypassed cup reads cleaner and sweeter without losing the sweetness that came from full extraction. The canonical relation `PE = [TDS/(1−TDS)]×(R_brew − R_abs)` with **R_abs ≈ 2.1** (the retention constant we estimated empirically as ~2.0–2.3 g/g) comes from the same source.
 
-## Worked Example (validated)
-
-Yunnan Purple Leaf Caturra, K72 washed, roast 2/5 — Option A sweet 4:6 with bypass. Full recipe and sensory notes in [[sources/yunnan-purple-caturra-k72-label]].
-
-- 15 g dose · brewed to **225 g through the bed (1:15)** · **+25 g bypass → 250 g total water**
-- Measured: final beverage **~215 g**, **TDS 1.43%** → **EY ≈ 20.5%**
-- Pre-bypass strength was ~1.62% (3.07 g solids / ~190 g); the ~25 g bypass (≈10% of the cup) pulled it to 1.43% — an ~11% strength drop, **EY untouched**.
-- Result: "good balance of sweetness and clarity, still more coffee-like than tea-like." The body came from the 20.5% extraction; the bypass only trimmed intensity.
-
-**Dialing the bypass:** to reach a softer ~1.30% TDS at the *same* EY, bypass ~47 g (≈19%) instead of 25 g. More bypass → more tea-leaning; less → more intense. Grind/temp stay put.
-
 ## Related Concepts
 - [[concepts/brewing-control-chart]] — the parent TDS×PE×ratio chart; bypass is a vertical (TDS-down) move on it; shared R_abs/percent-extraction math
 - [[concepts/46-method]] — the extraction framework this example sits on; bypass is a strength dial layered *after* the 4:6 axes

@@ -23,7 +23,7 @@ A Brazilian cultivar bred by IAC from **Mundo Novo × Caturra** (released 1972).
 
 ## Related Concepts
 - [[concepts/mundo-novo]] — vigour/yield parent
-- [[concepts/purple-leaf-caturra]] — Caturra, the dwarf-stature parent
+- [[concepts/caturra]] — Caturra, the dwarf-stature parent
 - [[concepts/bourbon]] — Bourbon lineage (via both parents)
 - [[concepts/arabica-variety-taxonomy]] — WCR "Typica + Bourbon related"; "good" quality
 - [[entities/brazil]] — origin and primary cultivation

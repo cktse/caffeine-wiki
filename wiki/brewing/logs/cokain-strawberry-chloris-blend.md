@@ -26,7 +26,7 @@ url: https://en.entreboxhk.com/shop/cokain-coffee-blend-strawberry-chloris-250g/
 
 > First-party brew log. Bean-identity fields are **as claimed** by the seller (Cokain / Entrebox) — a marketing source; the flavour framing ("strawberry milkshake") carries commercial bias. Linked out, not asserted as facts (see Sourcing Discipline). It's a **blend** with unspecified varietals/processing, so most traceability fields are absent.
 
-Context (as claimed): a [[varietals/entities/colombia|Colombia]] + [[varietals/entities/china-yunnan|Yunnan]] blend, medium roast, marketed as versatile (espresso / milk / pour-over).
+Context (as claimed): a [[varietals/entities/colombia|Colombia]] + Yunnan blend, medium roast, marketed as versatile (espresso / milk / pour-over).
 
 ## Recommended Recipe
 

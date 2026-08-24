@@ -12,7 +12,7 @@ The world's largest producer and exporter of coffee — ~⅓ of global productio
 
 ## Relevance
 
-Brazil is the backdrop for much of this wiki's varietal and processing history: birthplace of **Caturra** ([[concepts/purple-leaf-caturra]]), **Mundo Novo** ([[concepts/mundo-novo]]), **Catuaí** ([[concepts/catuai]]), and **pulped natural / cereja descascado** processing. Its specialty character is defined less by exotic genetics than by **scaled, mechanized, semidry-processed Arabica** — and, increasingly, by **disease-resistant introgressed cultivars that can still reach top-tier cup scores**. Actionable read for green buying: a Brazilian "specialty" lot is most often a Mundo Novo/Catuaí or an introgressed cultivar, semidry-processed, from Minas Gerais — expect sweetness/body-forward, nutty-chocolatey profiles rather than high-floral washed clarity, with the best lots (often Catuaí, Bourbon Amarelo, or Icatu-derived) reaching 87–90+ at COE.
+Brazil is the backdrop for much of this wiki's varietal and processing history: birthplace of **Caturra** ([[concepts/caturra]]), **Mundo Novo** ([[concepts/mundo-novo]]), **Catuaí** ([[concepts/catuai]]), and **pulped natural / cereja descascado** processing. Its specialty character is defined less by exotic genetics than by **scaled, mechanized, semidry-processed Arabica** — and, increasingly, by **disease-resistant introgressed cultivars that can still reach top-tier cup scores**. Actionable read for green buying: a Brazilian "specialty" lot is most often a Mundo Novo/Catuaí or an introgressed cultivar, semidry-processed, from Minas Gerais — expect sweetness/body-forward, nutty-chocolatey profiles rather than high-floral washed clarity, with the best lots (often Catuaí, Bourbon Amarelo, or Icatu-derived) reaching 87–90+ at COE.
 
 ## Key Facts
 
@@ -27,7 +27,7 @@ Brazil is the backdrop for much of this wiki's varietal and processing history: 
 
 ## Connections
 
-- Cultivars: [[concepts/mundo-novo]], [[concepts/catuai]], [[concepts/purple-leaf-caturra]] (Caturra origin), [[concepts/bourbon]], [[concepts/introgressed-varieties]] (Icatu + Brazilian HdT derivatives)
+- Cultivars: [[concepts/mundo-novo]], [[concepts/catuai]], [[concepts/caturra]] (Caturra origin), [[concepts/bourbon]], [[concepts/introgressed-varieties]] (Icatu + Brazilian HdT derivatives)
 - Processing: [[shared/honey-processing]] (pulped natural / semidry family), [[processing/concepts/processing-terminology]] (cereza descascado nomenclature), [[processing/sources/siaf-catigua-mg2-silva-2024]] (Catiguá MG2, a Brazilian introgressed cultivar)
 - History: [[concepts/arabica-history]] — Bourbon → Brazil (1860) → Central America dispersal
 - Cross-domain: [[shared/terroir]] — elevation/latitude/temperature as quality drivers
