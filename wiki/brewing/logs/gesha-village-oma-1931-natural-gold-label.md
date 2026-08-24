@@ -42,9 +42,9 @@ None provided by the seller — the product page gives flavour notes (orange / g
 
 ### 2026-08-24 — Hario [[brewing/concepts/neo-switch|Neo Switch]] (dual-temp)
 
-| Dripper | Dose | Water (target→actual) | Beverage | Ratio | Temp | Time (target→actual) | TDS | EY |
+| Grind | Dose | Water (target→actual) | Beverage | Ratio | Temp | Time (target→actual) | TDS | EY |
 |---|---|---|---|---|---|---|---|---|
-| Neo Switch | 15 g | 250 → **251.6 g** | 213.8 g | 1:16.8 | 91 °C main + **70 °C** final | 3:00 → **4:00** | **1.56%** | **~22.2%** |
+| Timemore O78S @ 17 | 15 g | 250 → **251.6 g** | 213.8 g | 1:16.8 | 91 °C main + **70 °C** final | 3:00 → **4:00** | **1.56%** | **~22.2%** |
 
 *Beverage measured by weight: 454.5 g (cup) − 240.7 g (container) = 213.8 g; retention ~37.8 g (~2.5 g/g).*
 
