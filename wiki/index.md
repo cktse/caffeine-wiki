@@ -168,6 +168,12 @@ per page, enough context to know whether to drill in.
 | [[brewing/concepts/cold-brew]] | Cold brew method — confirmed: more floral, less bitter/acidic; NOT sweeter; light roast + Ethiopian washed optimal; ambient temp 12h brew | brewing | 2026-06-20 |
 | [[brewing/concepts/espresso-fundamentals]] | Espresso core variables; roast mass loss → brew ratio table; flow rate × roast level; transport/diffusion; light-roast strategies; Gagné filtration model + grind ceiling + pressure effect; 3 astringency sources + CGA mechanism tension; pre-infusion mechanics | brewing | 2026-06-26 |
 
+### Logs
+
+| Page | Description | Domain | Updated |
+|---|---|---|---|
+| [[brewing/logs/gesha-village-oma-1931-natural-gold-label]] | Personal log — Cokain/Entrebox Ethiopia Gesha Village OMA Gesha 1931 Natural (Gold Label); bought roasted bean; Neo Switch dual-temp 91/70°C brew, measured TDS 1.56% / EY ~22% / Agtron 75.8; bean identity as-claimed (marketing source) | brewing | 2026-08-24 |
+
 ---
 
 ## Roasting

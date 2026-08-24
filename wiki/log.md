@@ -1246,3 +1246,29 @@ Cross-domain / connections:
 - No contradictions with existing wiki content.
 
 ---
+
+## [2026-08-24] ingest | brewing | Personal log (PILOT) — Cokain/Entrebox Ethiopia Gesha Village OMA Gesha 1931 Natural (Gold Label)
+
+First `personal_log` ingest — a bought roasted bean → brewing domain → `wiki/brewing/logs/`. Free-format raw (Entrebox product page + CK's shorthand brew log) structured into the `logs/BEAN.md` schema.
+
+Source: raw/brewing/Cokain- Ethiopia Gesha Village OMA Gesha 1931 Natural(Gold label) – 集氣箱 Entrebox.md
+Credibility: bean-identity fields = **marketing/label claims** (commercial bias on grade/rarity — "Gold Label top 10%", "competition choice") → recorded **as-claimed**, linked out, not asserted as entity facts. Brew log + Agtron 75.8 = **first-party** (CK measured).
+
+Pages created:
+- wiki/brewing/logs/gesha-village-oma-1931-natural-gold-label.md
+
+Pages updated:
+- wiki/index.md — new "### Logs" subsection under Brewing; row added
+- wiki/log.md — this entry
+
+Extracted / derived:
+- Identity (as-claimed): Ethiopia · Gesha Village Coffee Estate, OMA zone (Bench-Maji), 1931–2049m · Gesha (Gesha 1931) · Natural · Medium-Light (measured Agtron 75.8) · notes orange/green-tea/jasmine/grape · 100g, HKD 199 (was 499).
+- Skipped (unknown in source): producer, crop_year, roasted_on.
+- Brew (Neo Switch, dual-temp 91°C + 70°C tail): 15g / target 250g → actual 251.6g in 4:00 (target 3:00); beverage 213.8g (454.5 − 240.7 container); **TDS 1.56% → EY ~22.2%** (high, top of band); retention ~2.5 g/g.
+- Read: slow 4-min draw drove EY high; 70°C cold tail mitigates astringency risk; plots upper-mid/high on the BCC.
+
+Cross-refs (link-out, as-claimed): [[varietals/entities/ethiopia]], [[varietals/concepts/geisha]], [[brewing/concepts/neo-switch]], [[shared/astringency]], [[brewing/concepts/brewing-control-chart]]. No entity pages created from label claims (grounding guardrail).
+
+Pilot notes for schema iteration: added `date_ingested` + `tags` (previously flagged minors); recorded first-party `Agtron` inside `roast_level`; measured brew fields (beverage weight, TDS, EY) captured in a per-brew table — candidate columns to formalize when the iteration-log schema is finalized.
+
+---
