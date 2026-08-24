@@ -2,7 +2,7 @@
 title: "Ethiopia Gesha Village OMA · Gesha 1931 Natural (Gold Label)"
 source_type: personal_log
 raw_path: "raw/brewing/Cokain- Ethiopia Gesha Village OMA Gesha 1931 Natural(Gold label) – 集氣箱 Entrebox.md"
-roaster: Cokain (retailer: 集氣箱 Entrebox, Hong Kong)
+roaster: Cokain
 origin: Ethiopia
 region: OMA zone, Gesha Village (Bench-Maji Zone)
 farm: Gesha Village Coffee Estate
