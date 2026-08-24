@@ -1272,3 +1272,30 @@ Cross-refs (link-out, as-claimed): [[varietals/entities/ethiopia]], [[varietals/
 Pilot notes for schema iteration: added `date_ingested` + `tags` (previously flagged minors); recorded first-party `Agtron` inside `roast_level`; measured brew fields (beverage weight, TDS, EY) captured in a per-brew table — candidate columns to formalize when the iteration-log schema is finalized.
 
 ---
+
+## [2026-08-24] ingest | brewing | Personal log (PILOT #2) — Cokain/Entrebox Strawberry Chloris (Blend), espresso
+
+Second `personal_log` pilot — a bought roasted **blend** → brewing domain. Chosen to stress-test the schema on (a) sparse traceability and (b) an **espresso** brew (different column set than the pour-over pilot).
+
+Source: raw/brewing/Cokain Coffee Blend – Strawberry Chloris – 集氣箱 Entrebox.md
+Credibility: bean identity = marketing/label claims (commercial-bias flavour hype); recorded as-claimed, linked out. Brew + diagnosis = first-party.
+
+Pages created:
+- wiki/brewing/logs/cokain-strawberry-chloris-blend.md
+
+Pages updated:
+- wiki/index.md — Brewing → Logs row added
+- wiki/log.md — this entry
+
+Extracted / derived:
+- Identity (as-claimed): Colombia + Yunnan blend · Medium roast · notes strawberry/red-wine/rose/yogurt · 250g, HKD 169.
+- Skipped (blend, unknown in source): region, farm, producer, varietals, crop_year, elevation, processing, Agtron.
+- Brew (Decent Espresso XL, Blooming profile): O78S @ 4 · 15→45 g (1:3) · 95 °C. **Failed shot** — bloom flow too fast (>20 g vs 8–10 g target) → puck under-resisted → extraction pressure <3 bar. Fix: grind finer and/or raise dose. No TDS/EY (shot not viable).
+
+Schema-iteration findings:
+- **Espresso vs pour-over columns differ**: espresso row = Grind · Dose · Yield · Ratio · Temp · **Pressure** · Time · TDS · EY (vs pour-over's Water · Beverage). Confirms the iteration table must be **method-grouped with method-appropriate columns** — a key point to bake in when the WIP columns are finalized.
+- Logs usefully capture **failed brews + fixes**, not just successes.
+
+Cross-refs (link-out, as-claimed): [[varietals/entities/colombia]], [[varietals/entities/china-yunnan]], [[brewing/entities/decent-espresso]], [[brewing/concepts/espresso-fundamentals]], [[brewing/concepts/dialing-in]], [[brewing/sources/rao-blooming-filter3-quakers-2025]]. No entity pages minted from blend/marketing claims (grounding guardrail).
+
+---

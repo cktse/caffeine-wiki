@@ -173,6 +173,7 @@ per page, enough context to know whether to drill in.
 | Page | Description | Domain | Updated |
 |---|---|---|---|
 | [[brewing/logs/gesha-village-oma-1931-natural-gold-label]] | Personal log — Cokain/Entrebox Ethiopia Gesha Village OMA Gesha 1931 Natural (Gold Label); bought roasted bean; Neo Switch dual-temp 91/70°C brew, measured TDS 1.56% / EY ~22% / Agtron 75.8; bean identity as-claimed (marketing source) | brewing | 2026-08-24 |
+| [[brewing/logs/cokain-strawberry-chloris-blend]] | Personal log — Cokain/Entrebox Strawberry Chloris blend (Colombia + Yunnan), medium roast; bought; Decent XL Blooming Espresso 15→45g @95°C under-resisted (bloom flow too high → <3 bar); fix = grind finer / more dose; identity as-claimed (marketing) | brewing | 2026-08-24 |
 
 ---
 
