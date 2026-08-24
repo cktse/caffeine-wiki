@@ -1299,3 +1299,27 @@ Schema-iteration findings:
 Cross-refs (link-out, as-claimed): [[varietals/entities/colombia]], [[varietals/entities/china-yunnan]], [[brewing/entities/decent-espresso]], [[brewing/concepts/espresso-fundamentals]], [[brewing/concepts/dialing-in]], [[brewing/sources/rao-blooming-filter3-quakers-2025]]. No entity pages minted from blend/marketing claims (grounding guardrail).
 
 ---
+
+## [2026-08-24] ingest | brewing | Personal log (PILOT #3) — Coffee Collective "Reshad" Ethiopia Jimma Natural
+
+Third `personal_log` pilot — a bought roasted bean from a **high-credibility specialty roaster** (Coffee Collective, DK), contrasting the marketing-page sources of pilots #1–2.
+
+Source: raw/brewing/Reshad.md
+Credibility: roaster source with genuine traceability (named producer Reshad Albuls, published farmgate price 10.8 USD/kg, variety/altitude) → **low commercial-bias**; still recorded as-claimed + linked out per Sourcing Discipline. Brew + TDS = first-party.
+
+Pages created:
+- wiki/brewing/logs/reshad-ethiopia-jimma-natural.md
+
+Pages updated:
+- wiki/index.md — Brewing → Logs row
+- wiki/log.md — this entry
+
+Extracted (as-claimed, credible): Ethiopia, Jimma (Agaro) · producer Reshad Albuls · variety 74110 (JARC 74 Series) · Natural · organic · 1900–2000 masl · Coffee Collective, roasted 2026-07-20 (filter roast), best-before 2026-10-20 · 250g HKD 220 from 啡人前 (2026-08-21). Consistent with the wiki's [[varietals/entities/ethiopia]] (Jimma natural) + [[varietals/entities/jarc]] (74110).
+Brew (Neo Switch, single-temp 89°C): O78S @17 · 15g → 250g (actual 253.5g) · beverage 216g · TDS 1.52% → **EY ~21.9%** (high). Closed 50g bloom → open to 250g.
+
+Schema-iteration notes:
+- `roast_level` held the source's "roasted for filter" — a roast *intent*, not a level. Bought beans sometimes state a roast-for-filter/espresso target (a brew_target analogue) — flag for future schema thought.
+- A high-credibility roaster (Coffee Collective) is a candidate for a real `brewing/entities` page and could even corroborate varietals facts — but **not minted from a single product page** (guardrail); left as plain text + link-out to existing ethiopia/jarc pages. Similarly `啡人前` (HK reseller) not entered as an entity.
+- No entity pages minted.
+
+---
