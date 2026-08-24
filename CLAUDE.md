@@ -340,6 +340,55 @@ started: YYYY-MM-DD
 ## Next Steps
 ```
 
+### logs/BEAN.md — personal logs from brewing/roasting of a specific bean
+- For the benefit of doubt, roasting logs and brewing logs are separate pages sharing similar schema. Roasting logs (for green beans) go under roasting domain, brewing logs (for roasted beans) go under brewing domain. 
+- Prioritize traceability data
+- Extract relevant details from the source (typically from packaging)
+- Skip attribute altogether if value is unknown
+- Some of these attributes will cross-reference into [[Entity]] — **link out only**; label fields (farm, producer, varietals, origin) stay "as claimed" here and must not be asserted as entity facts without corroboration (see Sourcing Discipline)
+- Translate into English if required (original text in parenthesis for provenance)
+- When brewing home-roasted beans, OK to refer to the roasting domain from the brewing domain for green bean details to avoid duplication
+```markdown
+---
+title: "[bean name, e.g. Tabaco Pata SL09]"
+source_type: personal_log
+raw_path: [materialized source in raw/ — label photo or Bean Conqueror export; provenance for the claimed fields below, e.g. raw/roasting/ucr-peru-tabaco-pata-sl09.md]
+roaster: [e.g. Urban Coffee Roaster (skip for green beans)]
+origin: [e.g. Peru]
+region: [e.g. Cusco]
+farm: [e.g. Tabaco Patal]
+producer: [e.g. Juanito Navarro]
+varietals: [e.g. SL09; SL34] 
+crop_year: [e.g. 2025]
+elevation: [e.g. 2280m]
+processing: [e.g. Washed]
+roast_level: [e.g. Light]
+notes: [e.g. Jasmine; Tangerine; White Grape]
+weight: [purchased, e.g. 100g]
+cost: [currency + amount paid, e.g. HKD 190]
+roasted_on: [e.g. 2026-06-05]
+brew_target: [green/roasting pages only — intended brew method the roast targets, e.g. pour-over; skip on roasted-bean pages]
+roast_provenance: [roasted/brewing pages, home-roasted only — link to the green bean's roasting log, e.g. "[[roasting/logs/ucr-peru-tabaco-pata-sl09]]"; skip if bought]
+url: [e.g. https://ucr.hk/collections/coffee-beans/products/peru-cusco-tabaco-pata-sl09-washed-100g-copy]
+---
+
+# [Bean Name]
+
+## Recommended Recipe
+
+Recommended [brewing|roasting] recipe from the source of purchase etc., potential reference to recipe in [[Concept]]
+
+## [Brewing|Roasting] Logs
+
+[Brewing|Roasting] parameters recorded here, potential reference to recipe in [[Concept]]
+
+## TODO
+
+Ideas/tweaks to try next
+
+```
+
+
 > Add domain-specific page formats below. See examples/domains/ for reference.
 > For example, a "reading" domain might add a "books/TITLE.md" format.
 > A "health" domain might add a "logs/DATE.md" format for daily tracking.
@@ -348,9 +397,8 @@ started: YYYY-MM-DD
 > brew/roast logs under a `logs/` subfolder. They are first-party records — materialized
 > into `raw/` (e.g. a Bean Conqueror export) so they count as sources (see Sourcing
 > Discipline). Brew logs and roast logs are **separate pages**, coupled by `brew_target`
-> (roast → intended brew method) and `roast_provenance` (brew → roast consumed).
-> *Exact frontmatter/columns are still being designed (bean schema on top of the brew
-> schema) — not fixed here.*
+> (roast → intended brew method) and `roast_provenance` (brew → roast consumed) — both now in the schema above.
+> *Iteration-log columns (per-brew/per-roast rows) are still WIP.*
 
 ---
 
