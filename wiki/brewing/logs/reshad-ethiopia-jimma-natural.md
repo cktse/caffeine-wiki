@@ -55,6 +55,22 @@ Roasted "for filter" — no specific brew recipe given. Roaster transparency: Co
 
 **Read:** EY ~21.9% is **high** (top of band), TDS 1.52% strong — similar extraction to the other Neo Switch logs, but single-temp 89 °C (no 70 °C cold tail this time). For a fruit-forward natural the high EY is fine if the florals/sweetness carry; if it reads drying, add a cold tail or pull back extraction. Plots upper-mid/high on the [[brewing/concepts/brewing-control-chart|Brewing Control Chart]].
 
+### 2026-08-25 — Hario [[brewing/concepts/neo-switch|Neo Switch]] (dual-temp 89/65 °C)
+
+| Grind | Dose | Water (target→actual) | Beverage | Ratio | Temp | Time | TDS | EY |
+|---|---|---|---|---|---|---|---|---|
+| O78S @ 17.2 | 15.1 g | 250 → **251.1 g** | 211 g | 1:16.6 | 89 °C main + **65 °C** tail | ~4:00 drain | **1.57%** | **~21.9%** |
+
+*Retention 251.1 − 211 = ~40.1 g (~2.7 g/g). Grind 17.2 is slightly **coarser** than the 08-22 pull (on the O78s, higher dial = coarser).*
+
+**Valve / pour sequence:**
+1. **Closed** → pour to 30 g @ 89 °C — bloom/steep
+2. **Open** → 100 g → 180 g — percolate
+3. **Closed** → pour to 250 g @ **65 °C** — cold immersion
+4. Drain (~4 min total)
+
+**Read (vs. 08-22 single-temp):** near-identical **EY ~21.9%** despite a *coarser* grind (17.2 vs 17) — the added closed 65 °C tail and ~4-min drain lengthened contact, compensating; TDS a touch higher (1.57 vs 1.52, smaller beverage). The deliberate change is the **65 °C cold tail** (this bean's first dual-temp pull); its effect on the *finish* is a sensory call still to record. Reinforces the consistent ~22% EY across these Neo Switch pulls.
+
 ## TODO
-- Compare vs. a dual-temp (91 °C + 70 °C tail) pull to see if the cold tail cleans up the finish at this EY.
+- **Dual-temp done (08-25):** EY unchanged vs single-temp (~21.9%), so any benefit is in the *finish* — do a side-by-side **sensory A/B** (single-temp vs 65 °C tail).
 - Log sensory vs. the roaster's dried apple / bergamot / milk chocolate.

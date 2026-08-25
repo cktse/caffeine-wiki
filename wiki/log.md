@@ -1392,3 +1392,15 @@ Process note: user flagged the naming concern → escalated to web research per 
 Follow-ups: Frontiers 2025 RAD-seq = a good standalone source for Chinese coffee genetics (worth its own ingest); DTARI could be a varietals entity; K72 processing concept re-creatable from this source (cross-domain).
 
 ---
+
+## [2026-08-25] update | brewing | Reshad personal log — 2nd brew (dual-temp) added
+
+Raw updated with a 2026-08-25 entry; added it to the existing Reshad log.
+- Dual-temp 89/65 °C: O78S @17.2 (slightly coarser), 15.1 g → 251.1 g, beverage 211 g, TDS 1.57% → **EY ~21.9%**.
+- vs the 08-22 single-temp (EY ~21.9%, TDS 1.52%): near-identical EY despite a coarser grind — the closed 65 °C tail + ~4-min drain lengthened contact and compensated. Deliberate variable = cold tail; finish effect pending a sensory A/B.
+- Reinforces the ~22% EY pattern across Neo Switch pulls (cf. brewing lint observation).
+- Corrected grinder-dial direction: on the Timemore O78s, **higher dial = coarser**.
+
+Pages updated: brewing/logs/reshad-ethiopia-jimma-natural (brew 2 + TODO), wiki/index.md.
+
+---

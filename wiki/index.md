@@ -173,7 +173,7 @@ per page, enough context to know whether to drill in.
 |---|---|---|---|
 | [[brewing/logs/gesha-village-oma-1931-natural-gold-label]] | Personal log — Cokain/Entrebox Ethiopia Gesha Village OMA Gesha 1931 Natural (Gold Label); bought roasted bean; Neo Switch dual-temp 91/70°C brew, measured TDS 1.56% / EY ~22% / Agtron 75.8; bean identity as-claimed (marketing source) | brewing | 2026-08-24 |
 | [[brewing/logs/cokain-strawberry-chloris-blend]] | Personal log — Cokain/Entrebox Strawberry Chloris blend (Colombia + Yunnan), medium roast; bought; Decent XL Blooming Espresso 15→45g @95°C under-resisted (bloom flow too high → <3 bar); fix = grind finer / more dose; identity as-claimed (marketing) | brewing | 2026-08-24 |
-| [[brewing/logs/reshad-ethiopia-jimma-natural]] | Personal log — Coffee Collective "Reshad", Ethiopia Jimma natural, 74110 (JARC), filter roast; bought; Neo Switch single-temp 89°C 15g→250g measured TDS 1.52% / EY ~21.9%; high-credibility roaster source (still as-claimed / link-out) | brewing | 2026-08-24 |
+| [[brewing/logs/reshad-ethiopia-jimma-natural]] | Personal log — Coffee Collective "Reshad", Ethiopia Jimma natural, 74110 (JARC), filter roast; bought; 2 Neo Switch pulls (single-temp 89°C & dual-temp 89/65°C) both ~21.9% EY (TDS 1.52→1.57%); high-credibility roaster source (as-claimed / link-out) | brewing | 2026-08-25 |
 
 ---
 
