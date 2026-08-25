@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 """Tests for bc_to_md.py (spec §1.10). Stdlib only. Run: python3 tools/tests/test_bc_to_md.py"""
+import os
+import time
 import sys
 import json
 import difflib
 from pathlib import Path
+
+# fmt_date renders in local time; pin to UTC so golden dates are machine-independent.
+os.environ["TZ"] = "UTC"
+time.tzset()
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))

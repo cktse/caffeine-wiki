@@ -81,7 +81,9 @@ def fmt_date(brew):
     ts = brew.get("config", {}).get("unix_timestamp")
     if not ts:
         return None
-    return _dt.datetime.fromtimestamp(int(ts), _dt.timezone.utc).date().isoformat()
+    # Local time: unix_timestamp is a UTC epoch, but the brew date should match what
+    # Bean Conqueror displays (the user's local date), not the UTC date.
+    return _dt.datetime.fromtimestamp(int(ts)).date().isoformat()
 
 
 def roast_date(bean):

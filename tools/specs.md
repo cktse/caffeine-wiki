@@ -138,7 +138,7 @@ Brew → row (grouped by method):
 
 Modules (unidirectional dependencies; each independently testable):
 - `load` — parse the export; resolve UUID joins (brew → bean, → preparation, → mill).
-- `map` — BC fields → schema fields; unit conversions (seconds → mm:ss); computed EY.
+- `map` — BC fields → schema fields; unit conversions (seconds → mm:ss).
 - `render` — Markdown emission; brew tables grouped by preparation method.
 - `ledger` — read/extend the `bc_bean_id` / `bc_brews` frontmatter ledger; append dedup.
 - `cli` — thin argument layer (mode dispatch, paths, selectors) over the above.
@@ -161,9 +161,9 @@ Golden-file (baseline-comparison) tests, per the test-driven tenet:
 - `tests/fixtures/` holds small representative **input** BC-export slices and their
   **expected** Markdown outputs; each run diffs actual vs expected.
 - Coverage:
-  - *Positive:* a rich pour-over brew (all fields incl. TDS/beverage → EY computed);
+  - *Positive:* a rich pour-over brew (all fields incl. TDS/beverage);
     an espresso brew (espresso column set).
-  - *Negative / edge:* brew missing `tds`/`brew_beverage_quantity` (EY blank); `BLEND`
+  - *Negative / edge:* brew missing `tds`/`brew_beverage_quantity` (blank cells); `BLEND`
     bean; empty `bean_information` (identity fields blank); Agtron absent from `note`.
   - *Append dedup:* baseline MD + an export with one extra brew → exactly that row
     appended, `bc_brews` extended, pre-existing content (incl. a simulated manual edit)
