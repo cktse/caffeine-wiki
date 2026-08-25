@@ -89,12 +89,6 @@ def roast_date(bean):
     return rd[:10] if rd else None
 
 
-def compute_ey(beverage, tds, dose):
-    if beverage and tds and dose:
-        return round(beverage * (tds / 100.0) / dose * 100, 1)
-    return None
-
-
 def is_espresso(prep_name, bean):
     return "espresso" in (prep_name or "").lower() or bean.get("bean_roasting_type") == "ESPRESSO"
 
@@ -126,9 +120,7 @@ def map_brew(brew: dict, prep_name, mill_name, espresso: bool) -> dict:
     tds = _pos(brew.get("tds"))
     gsz = brew.get("grind_size")
     grind = f"{mill_name} @ {gsz}" if mill_name else (str(gsz) if gsz not in (None, "") else None)
-    # pour-over ratio is water:dose; espresso ratio is yield(out):dose
-    ratio_num = (bev or water) if espresso else water
-    ratio = round(ratio_num / dose, 1) if (ratio_num and dose) else None
+    # Derived metrics (Ratio, EY) are intentionally not emitted — recomputed at ingestion.
     return {
         "bc_brew_id": brew["config"]["uuid"],
         "date": fmt_date(brew),
@@ -138,11 +130,9 @@ def map_brew(brew: dict, prep_name, mill_name, espresso: bool) -> dict:
         "dose": dose,
         "water": water,
         "beverage": bev,
-        "ratio": f"1:{_fmt_num(ratio)}" if ratio else None,
         "temp": _pos(brew.get("brew_temperature")),
         "time": fmt_time(brew.get("brew_time")),
         "tds": tds,
-        "ey": compute_ey(bev, tds, dose),
     }
 
 
@@ -169,23 +159,23 @@ def _cell(v, unit="", none="—"):
     return f"{_fmt_num(v)}{unit}" if unit else str(v)
 
 
-_PO_HEAD = "| Date | Grind | Dose | Water | Beverage | Ratio | Temp | Time | TDS | EY |"
-_PO_SEP = "|---|---|---|---|---|---|---|---|---|---|"
-_ESP_HEAD = "| Date | Grind | Dose | Yield | Ratio | Temp | Time | TDS | EY |"
-_ESP_SEP = "|---|---|---|---|---|---|---|---|---|"
+# Emitted columns are raw measured values only (no Ratio/EY — recomputed at ingestion);
+# a trailing blank Notes column is for manual technique/tasting additions.
+_PO_HEAD = "| Date | Grind | Dose | Water | Beverage | Temp | Time | TDS | Notes |"
+_PO_SEP = "|---|---|---|---|---|---|---|---|---|"
+_ESP_HEAD = "| Date | Grind | Dose | Yield | Temp | Time | TDS | Notes |"
+_ESP_SEP = "|---|---|---|---|---|---|---|---|"
 
 
 def brew_row(b: dict) -> str:
-    common_tail = [
-        _cell(b["ratio"]), _cell(b["temp"], " °C"), _cell(b["time"]),
-        _cell(b["tds"], "%"), _cell(f"~{_fmt_num(b['ey'])}%" if b["ey"] else None),
-    ]
+    # Units are space-free (15g, 92C) for easy manual editing; Notes left blank.
+    tail = [_cell(b["temp"], "C"), _cell(b["time"]), _cell(b["tds"], "%"), ""]
     if b["espresso"]:
-        cells = [_cell(b["date"]), _cell(b["grind"]), _cell(b["dose"], " g"),
-                 _cell(b["beverage"] or b["water"], " g")] + common_tail
+        cells = [_cell(b["date"]), _cell(b["grind"]), _cell(b["dose"], "g"),
+                 _cell(b["beverage"] or b["water"], "g")] + tail
     else:
-        cells = [_cell(b["date"]), _cell(b["grind"]), _cell(b["dose"], " g"),
-                 _cell(b["water"], " g"), _cell(b["beverage"], " g")] + common_tail
+        cells = [_cell(b["date"]), _cell(b["grind"]), _cell(b["dose"], "g"),
+                 _cell(b["water"], "g"), _cell(b["beverage"], "g")] + tail
     return "| " + " | ".join(cells) + " |"
 
 

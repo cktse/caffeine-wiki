@@ -37,9 +37,9 @@ _(fill from roaster, if any)_
 
 ### Espresso (espresso)
 
-| Date | Grind | Dose | Yield | Ratio | Temp | Time | TDS | EY |
-|---|---|---|---|---|---|---|---|---|
-| 2026-01-04 | Test Grinder @ 4 | 18 g | 40 g | 1:2.2 | 93 °C | 0:28 | 9% | ~20% |
+| Date | Grind | Dose | Yield | Temp | Time | TDS | Notes |
+|---|---|---|---|---|---|---|---|
+| 2026-01-04 | Test Grinder @ 4 | 18g | 40g | 93C | 0:28 | 9% |  |
 
 ## TODO
 - Fill bean identity from the roaster URL.

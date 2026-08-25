@@ -32,17 +32,17 @@ tags:
 
 ## Recommended Recipe
 
-MANUAL RECIPE: roaster suggests 1:16, 92 °C.
+MANUAL RECIPE: roaster suggests 1:16, 92C.
 
 ## Brewing Logs
 
 ### V60 (pour-over)
 
-| Date | Grind | Dose | Water | Beverage | Ratio | Temp | Time | TDS | EY |
-|---|---|---|---|---|---|---|---|---|---|
-| 2026-01-06 | Test Grinder @ 18 | 15 g | 250 g | 216 g | 1:16.7 | 92 °C | 2:30 | 1.4% | ~20.2% |
+| Date | Grind | Dose | Water | Beverage | Temp | Time | TDS | Notes |
+|---|---|---|---|---|---|---|---|---|
+| 2026-01-06 | Test Grinder @ 18 | 15g | 250g | 216g | 92C | 2:30 | 1.4% | nice floral finish |
 
-MANUAL EDIT: this brew had a nice floral finish.
+MANUAL EDIT: kept the switch closed 30s longer.
 
 ## TODO
 - Log sensory.

@@ -75,7 +75,9 @@ one Markdown file per bean. Content:
 - Frontmatter: the dedup ledger (§1.6), BC-derived attributes, best-effort
   `agtron_whole` parsed from `note`, and blank identity fields with fill hints.
 - Body: brew entries grouped by preparation method (pour-over vs espresso column
-  sets), extraction yield computed where inputs permit.
+  sets). Emitted columns are **raw measured values only** — Ratio and EY are omitted
+  (recomputed at ingestion) — plus a blank **Notes** column for manual additions.
+  Units are space-free (`15g`, `92C`) for easy manual editing.
 
 **`append <md-path>`** — Input: an enriched Markdown file + BC JSON. Behavior:
 append only `BREWS(bc_bean_id) − bc_brews` into the correct method section
@@ -118,11 +120,10 @@ Brew → row (grouped by method):
 | `grind_weight` | Dose | |
 | `brew_quantity` | Water | |
 | `brew_beverage_quantity` | Beverage | if > 0 |
-| water ÷ dose | Ratio | |
-| `brew_temperature` | Temp | single value; dual-temp added manually |
+| `brew_temperature` | Temp | single value, formatted `92C`; dual-temp added manually |
 | `brew_time` | Time | seconds → mm:ss |
 | `tds` | TDS | if > 0 |
-| beverage × tds ÷ dose | EY | computed only when inputs present |
+| — | Notes | blank column for manual technique / tasting notes |
 
 ### 1.8 Provenance & guardrails
 

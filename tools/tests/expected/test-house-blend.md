@@ -36,9 +36,9 @@ _(fill from roaster, if any)_
 
 ### V60 (pour-over)
 
-| Date | Grind | Dose | Water | Beverage | Ratio | Temp | Time | TDS | EY |
-|---|---|---|---|---|---|---|---|---|---|
-| 2026-01-03 | Test Grinder @ 20 | 15 g | 240 g | — | 1:16 | 94 °C | 3:00 | — | — |
+| Date | Grind | Dose | Water | Beverage | Temp | Time | TDS | Notes |
+|---|---|---|---|---|---|---|---|---|
+| 2026-01-03 | Test Grinder @ 20 | 15g | 240g | — | 94C | 3:00 | — |  |
 
 ## TODO
 - Fill bean identity from the roaster URL.
