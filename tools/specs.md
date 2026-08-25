@@ -186,5 +186,8 @@ Golden-file (baseline-comparison) tests, per the test-driven tenet:
 
 - No green-bean / roast-log support (planned).
 - No roaster-URL scraping; identity enrichment is manual.
-- Script location: developed under `scratchpad/`; promote to a tracked tool if it
-  stabilizes.
+- Location: script + tests live in `tools/` (tracked); generated MD outputs go to
+  `scratchpad/bc_out/` (gitignored) until enriched and ingested.
+
+Usage: `python3 tools/bc_to_md.py [--export PATH] {manifest | generate [--bean SEL …]
+[--out DIR] | append --md PATH}`. Tests: `python3 tools/tests/test_bc_to_md.py`.

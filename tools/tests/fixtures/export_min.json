@@ -1,0 +1,77 @@
+{
+  "MILL": [
+    {"config": {"uuid": "mill-1"}, "name": "Test Grinder"}
+  ],
+  "PREPARATION": [
+    {"config": {"uuid": "prep-v60"}, "name": "V60"},
+    {"config": {"uuid": "prep-esp"}, "name": "Espresso"}
+  ],
+  "BEANS": [
+    {
+      "config": {"uuid": "bean-a"},
+      "name": "Test Origin Washed",
+      "roaster": "Test Roaster",
+      "roastingDate": "2026-01-05T00:00:00.000Z",
+      "bean_roasting_type": "FILTER",
+      "beanMix": "SINGLE_ORIGIN",
+      "bean_information": [{}],
+      "weight": 250, "cost": 180,
+      "url": "https://example.com/test-origin",
+      "note": "Ag 74.0"
+    },
+    {
+      "config": {"uuid": "bean-b"},
+      "name": "Test Espresso Single",
+      "roaster": "Esp Roaster",
+      "roastingDate": "2026-01-03T00:00:00.000Z",
+      "bean_roasting_type": "ESPRESSO",
+      "beanMix": "SINGLE_ORIGIN",
+      "bean_information": [{}],
+      "weight": 250, "cost": 200,
+      "url": "https://example.com/esp",
+      "note": ""
+    },
+    {
+      "config": {"uuid": "bean-c"},
+      "name": "Test House Blend",
+      "roaster": "Blend Co",
+      "roastingDate": "2026-01-02T00:00:00.000Z",
+      "bean_roasting_type": "UNKNOWN",
+      "beanMix": "BLEND",
+      "bean_information": [{}],
+      "weight": 200, "cost": 150,
+      "url": "",
+      "note": ""
+    }
+  ],
+  "BREWS": [
+    {
+      "config": {"uuid": "brew-a1", "unix_timestamp": 1767657600},
+      "bean": "bean-a", "method_of_preparation": "prep-v60", "mill": "mill-1",
+      "grind_size": 18, "grind_weight": 15,
+      "brew_quantity": 250, "brew_beverage_quantity": 216,
+      "brew_temperature": 92, "brew_time": 150, "tds": 1.4
+    },
+    {
+      "config": {"uuid": "brew-a2", "unix_timestamp": 1767744000},
+      "bean": "bean-a", "method_of_preparation": "prep-v60", "mill": "mill-1",
+      "grind_size": 18, "grind_weight": 15,
+      "brew_quantity": 250, "brew_beverage_quantity": 0,
+      "brew_temperature": 90, "brew_time": 160, "tds": 0
+    },
+    {
+      "config": {"uuid": "brew-b1", "unix_timestamp": 1767484800},
+      "bean": "bean-b", "method_of_preparation": "prep-esp", "mill": "mill-1",
+      "grind_size": 4, "grind_weight": 18,
+      "brew_quantity": 0, "brew_beverage_quantity": 40,
+      "brew_temperature": 93, "brew_time": 28, "tds": 9.0
+    },
+    {
+      "config": {"uuid": "brew-c1", "unix_timestamp": 1767398400},
+      "bean": "bean-c", "method_of_preparation": "prep-v60", "mill": "mill-1",
+      "grind_size": 20, "grind_weight": 15,
+      "brew_quantity": 240, "brew_beverage_quantity": 0,
+      "brew_temperature": 94, "brew_time": 180, "tds": 0
+    }
+  ]
+}
