@@ -9,6 +9,13 @@ Conventions:
 - Operate on local files only; write nothing outside the project folder.
 - Keep first-party (measured) data and third-party ("as claimed") data distinct
   in all outputs — see `CLAUDE.md` → Sourcing Discipline.
+- Keep things simple, do not over-engineer
+- Use existing tools/libraries as much as possible
+- Test-driven design, includes automated tests covering positive and negative cases where appropriate, exercising the code being tested as extensive as possible (e.g. a good pattern is to curate a set of representative test cases as input files to generate expected baseline for comparison)
+- Avoid hardcoding, use CLI argv where possible (pre-defined defaults are OK) and avoid unobvious coupling in the logic
+- Data minimalization principle: clean data lineage, avoid storing duplicative copies of data, instead store data keys and look up the authoritative data source
+- Flag technical debt: trade off to the design and/or code base say in flavor of preserving backward compatibility must be subject to careful deliberation
+- Modular design, group related functions together into logical modules, minimize coupling between modules, and keep dependencies unidirectional.
 
 ---
 
@@ -126,9 +133,57 @@ Brew → row (grouped by method):
 - The generated template separates measured data from claimed data so enrichment
   lands in the correct provenance tier.
 
-### 1.9 Limitations / future work
+### 1.9 Architecture & dependencies
 
-- One-time seed plus append only; no full-document regeneration.
+Modules (unidirectional dependencies; each independently testable):
+- `load` — parse the export; resolve UUID joins (brew → bean, → preparation, → mill).
+- `map` — BC fields → schema fields; unit conversions (seconds → mm:ss); computed EY.
+- `render` — Markdown emission; brew tables grouped by preparation method.
+- `ledger` — read/extend the `bc_bean_id` / `bc_brews` frontmatter ledger; append dedup.
+- `cli` — thin argument layer (mode dispatch, paths, selectors) over the above.
+
+Dependency flow: `cli → {load, map, render, ledger}`; `render` and `ledger` consume
+only `map`'s output types.
+
+Dependencies: Python 3 standard library (`json`, `argparse`, `re`) + **yaml12** for
+frontmatter read/write.
+- Install: `pip install py-yaml12`. Import: `from yaml12 import parse_yaml, format_yaml`.
+- Rationale (correctness + "use existing libraries"): yaml12 implements **YAML 1.2**,
+  which does not implicitly coerce dates, `no`/`off`/`yes`, or `1:2`-style scalars.
+  Frontmatter such as `roasted_on: 2026-07-20` and `date_ingested` stays a **string**,
+  avoiding the date-object coercion that YAML-1.1 parsers (e.g. PyYAML) impose on the
+  ledger round-trip.
+
+### 1.10 Testing
+
+Golden-file (baseline-comparison) tests, per the test-driven tenet:
+- `tests/fixtures/` holds small representative **input** BC-export slices and their
+  **expected** Markdown outputs; each run diffs actual vs expected.
+- Coverage:
+  - *Positive:* a rich pour-over brew (all fields incl. TDS/beverage → EY computed);
+    an espresso brew (espresso column set).
+  - *Negative / edge:* brew missing `tds`/`brew_beverage_quantity` (EY blank); `BLEND`
+    bean; empty `bean_information` (identity fields blank); Agtron absent from `note`.
+  - *Append dedup:* baseline MD + an export with one extra brew → exactly that row
+    appended, `bc_brews` extended, pre-existing content (incl. a simulated manual edit)
+    unchanged.
+- Fixtures are regenerated deliberately only when the mapping/format changes — a
+  reviewed event, not an incidental diff.
+
+### 1.11 Deliberated tradeoffs
+
+- **Materialization duplicates measured values (accepted).** Strict data-minimalization
+  argues against copying BC values into the MD, but a wiki source must be self-contained
+  and cannot depend on a live export. Reconciliation: the BC export remains the single
+  authoritative source (no second cached copy); dedup uses **UUID keys**, never value
+  matching; no datum is stored twice *within* an MD. The MD is an explicit point-in-time
+  snapshot.
+- **Append-only, no full regeneration (accepted).** Preserves manual enrichment at the
+  cost of not reconciling BC-side edits to already-materialized brews; those are handled
+  manually. Revisit only if editing historical brews in BC becomes common.
+
+### 1.12 Limitations / future work
+
 - No green-bean / roast-log support (planned).
 - No roaster-URL scraping; identity enrichment is manual.
 - Script location: developed under `scratchpad/`; promote to a tracked tool if it
