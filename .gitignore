@@ -38,3 +38,7 @@ Thumbs.db
 
 # Scratchpad — working drafts, local only
 scratchpad/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
