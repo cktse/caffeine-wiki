@@ -3,7 +3,7 @@ title: "Espresso Fundamentals"
 domain: brewing
 tags: [espresso, extraction, pressure, ratio, light-roast, blooming, allonge, turbo-shot, filter3, pre-infusion, astringency, quakers, channeling, cga, flow-rate, mass-loss, brew-ratio, transport, diffusion, filtration, suspension, grind-ceiling, solubility]
 source_count: 4
-last_updated: 2026-06-26
+last_updated: 2026-08-30
 ---
 
 # Espresso Fundamentals
@@ -117,6 +117,7 @@ Long espresso with high flow rate and high water volume. Works on any machine wi
 - ~2.5× more concentrated than Filter3 (Decent)
 - **Channeling risk**: long water volume amplifies any puck weakness; requires deep bed (updosing), careful puck prep, or Decent's adaptive flow profiling to manage
 - Validated at commercial scale: Rao served ~150 Allongés/day at his Montreal café with dedicated grinder and puck prep routine
+- **Stock-machine allongé** ([[brewing/entities/lance-hendrick|Hendrick]]): on a fixed 9-bar machine an allongé self-profiles (pressure rises to ~8 bar then cascades as resistance falls) and measured **~22% EY at 1:5.6** — lower than Rao's 26–27% (flow-controlled). "Allongé" spans a wide EY by grind/flow. See [[brewing/concepts/espresso-shot-styles]].
 
 ### Turbo Shot (Allongé alternative for challenging setups)
 
@@ -210,6 +211,7 @@ See [[shared/astringency]] for the full filtration model, temperature and pressu
 - [[brewing/sources/rao-astringency-management-2020]] — Rao 2020 (scottrao.com); CGA as large molecule extracting less readily (reconciles with Gagné model); diagnostic decision tree (channeling → cupping test → roast batch comparison); **high-medium (practitioner)**
 
 ## Related Concepts
+- [[brewing/concepts/espresso-shot-styles]] — the *menu* view: ristretto→sprover as stock-machine recipes (ratio + grind); this page is the mechanistic *why*
 - [[concepts/dialing-in]]
 - [[shared/astringency]] — full filtration model; grind-size ceiling; pressure and temperature effects; CGA mechanism tension
 - [[shared/quakers]] — immature beans; sorting; cup impact on astringency

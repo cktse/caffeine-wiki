@@ -100,6 +100,7 @@ Cold brew sits outside the standard pour-over/espresso framework. It is a distin
 
 ## Related Concepts
 
+- [[concepts/flash-chill-iced-coffee]] — the contrasting route to iced coffee: brew hot, chill on ice; preserves the hot-brew aromatic profile (vs cold brew's less-bitter/more-floral, not-sweeter cup)
 - [[shared/sweetness-perception]] — explains why Ethiopian washed cold brew may be perceived as sweeter (aromatic pathway, not sugar/brew method)
 - [[shared/wet-hulling]] — Sumatran wet-hulled profile is better preserved via hot brewing; cold brew suppresses characteristic smoky/earthy character
 - [[concepts/dialing-in]] — TDS calibration is critical for cold brew; dilution to target strength required

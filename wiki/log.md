@@ -1404,3 +1404,46 @@ Raw updated with a 2026-08-25 entry; added it to the existing Reshad log.
 Pages updated: brewing/logs/reshad-ethiopia-jimma-natural (brew 2 + TODO), wiki/index.md.
 
 ---
+
+## [2026-08-25] ingest | brewing | Melet Yunnan 米良·觅月 — K72 "Purple-Leaf Caturra" (personal_log)
+
+Second `bc_to_md.py`-generated personal log, enriched and ingested. First-party brew data (6 brews); bean identity **as claimed** with **elevated commercial bias** (Melet homepage not found → terroir/process quoted from other roasters' pages for the same coffee — flagged low-credibility).
+
+- **Sourcing headline:** the bag ("紫叶卡杜拉 Purple-Leaf Caturra," K72-washed, Xiding 1720–1800 m) is a **textbook [[varietals/concepts/dr296|Dr296]] misnomer** seen in the wild — genetically a **Catimor**, not [[varietals/concepts/caturra|Caturra]]. Every claimed attribute matches the Dr296 profile; ydselects' K72 description independently corroborates the K72 protocol on the Dr296 page (both commercial-tier). Did **not** launder into asserted facts or re-create a K72-washed processing concept (still no credible source).
+- **Brews:** Graycano ×1 (roaster 1:13 → TDS 1.82% / EY ~19.7%, over the roaster's own 1.15–1.35% TDS target); Neo-Switch ×4 (dual-temp 65–70 °C cold tails + bypass, 1:16–1:20, EY ~20.3–21.5%); Origami ×1 (single-temp 90 °C, EY ~22.7%, top/over band).
+- **Read:** EY ~20–23% / TDS 1.37–1.82% → consistently **coffee-like**, vs the tea-like Dr296 target; lever to chase clarity = higher ratio/bypass + lower EY (coarser, cooler main pour). Ratio/EY computed at ingestion (tool now omits them by design).
+
+Pages updated: brewing/logs/melet-yunnan-purple-leaf-caturra-k72 (new), varietals/concepts/dr296 (seen-in-the-wild backlink), wiki/index.md.
+
+---
+
+## [2026-08-30] ingest | brewing | Every Espresso Recipe Explained (Lance Hendrick)
+
+Credible practitioner/educator video (YouTube transcript; typos expected & corrected during ingest — exception noted by user). Fills the long-standing espresso-recipe gap. Six espresso styles on **one stock 9-bar machine**, varying only **ratio + grind**; each measured (grind/dose/yield/TDS/EY).
+
+- **New concept [[brewing/concepts/espresso-shot-styles]]** — ristretto→normale→lungo→turbo→allongé→sprover spectrum with corrected data table (the raw abstract table was column-shifted / missing sprover; user fixed it before ingest).
+- **Key insights:** grind sets the **extraction ceiling** (turbo coarse 1:2.75 → EY 18% *below* lungo fine 1:3 → 22%; EY not monotonic with yield); turbo **6-bar-myth debunk** (7–15 s shots can't build 6 bar, hit ~5); **big yield → cooler temp** (80–85 °C) for allongé/sprover; sprover = stock-machine cousin of Rao's Filter3; Hendrick challenges 18–22% EY dogma (drinks 15–18%).
+- **Contradiction flagged:** Hendrick's stock-machine allongé **~22% EY at 1:5.6** vs Rao's **26–27%** (Decent flow-control) — noted on both [[brewing/concepts/espresso-fundamentals]] and the new page; equipment/grind difference, not a real conflict.
+- **New entities:** [[brewing/entities/lance-hendrick]] (author), [[brewing/entities/scott-rao]] (overdue — well-connected across espresso+roasting), [[brewing/entities/christopher-hendon]] (turbo paper), [[brewing/entities/matt-perger]] (sprover).
+
+Pages updated: brewing/sources/every-espresso-recipe-explained-hendrick (new), brewing/concepts/espresso-shot-styles (new), brewing/entities/{lance-hendrick,scott-rao,christopher-hendon,matt-perger} (new), brewing/concepts/espresso-fundamentals (cross-link + stock-machine allongé note), brewing/overview (espresso section), wiki/index.md.
+
+---
+
+## [2026-08-30] ingest | brewing | Iced Coffee: 4:6 vs Hybrid Flash-Chill (Kasuya / Philocoffea)
+
+Credible practitioner video (Japanese YouTube transcript + 4 recipe slides; typos corrected & JP→EN on ingest — exception noted by user). Extends the existing 4:6 + Switch work into **flash-chill (急冷) iced**.
+
+- **New concept [[brewing/concepts/flash-chill-iced-coffee]]** — brew hot onto ice; two Kasuya recipes on the Hario Switch, shared base 20 g / 150 g hot (½ of 4:6's 300 g) / 80 g ice / 28 clicks:
+  - **A — 4:6 applied** (30 g × 5, 90–93 °C): sharp acidity, defined outline → bright Kenya/Ethiopia.
+  - **B — hybrid** (open 50 g → close 0:40 → open 1:30, keep temp up): smooth, cohesive, **standout sweetness**.
+- **Finding:** method changes the cup **even iced at matched strength** (Kasuya expected otherwise); he preferred B and mused about switching all shop recipes. **Choose by bean**, not a single "correct."
+- Sensory-only (no TDS/EY); grinder unstated (not asserted). Contrast with [[brewing/concepts/cold-brew]] flagged bidirectionally.
+
+Pages updated: brewing/sources/kasuya-iced-46-vs-hybrid-philocoffea (new), brewing/concepts/flash-chill-iced-coffee (new), brewing/concepts/{46-method,neo-switch,cold-brew} (cross-links + iced sections), brewing/entities/tetsu-kasuya (flash-chill fact), brewing/overview (iced note), wiki/index.md.
+
+## [2026-08-30] lint | brewing | Index tidy
+
+Fixed a pre-existing index quirk: two concept rows (`cold-brew`, a duplicate `espresso-fundamentals`) were sitting under the brewing **Entities** header. Moved `cold-brew` into Concepts, merged the richer `espresso-fundamentals` description into its Concepts row, and removed the strays.
+
+---

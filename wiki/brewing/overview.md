@@ -44,7 +44,10 @@ Use this to pick starting parameters for a given coffee.
 ## Espresso
 
 - [[concepts/espresso-fundamentals]] — pressure, temperature, ratio, grind, time
+- [[concepts/espresso-shot-styles]] — the six-style spectrum (ristretto → normale → lungo → turbo → allongé → sprover) on a stock 9-bar machine, varying only **ratio** and **grind**
 - [[concepts/dialing-in]] — systematic approach to recipe development
+
+**Beyond the classic 1:2:** the decision table above targets a balanced normale. To move along the concentration/brightness axis for a given coffee, shift **ratio + grind** per [[concepts/espresso-shot-styles]] — e.g. light/fruity lots often shine as **turbo** (~1:3, coarse, 7–15 s) or **allongé** (~1:5–1:6, cooler ~85 °C); darker/milk-forward lots as **ristretto/normale**.
 
 ---
 
@@ -64,6 +67,8 @@ Full immersion brewing with ambient (22°C) or refrigerated (4°C) water for 12�
 | **TDS target** | 2% serving strength | Concentrate will be ~4%; dilute to target |
 
 **Key hierarchy**: origin and roast make larger differences than brew temperature. Cold brewing an average coffee does not elevate it.
+
+**Iced (flash-chill) — the other route to cold coffee:** brew hot directly onto ice ([[concepts/flash-chill-iced-coffee]]) to preserve the hot-brew aromatic profile. Kasuya's Switch recipes: **4:6-applied** (halve the water; sharp acidity — bright Kenya/Ethiopia) vs a **2-pour immersion hybrid** (smoother, sweeter — flashy/sweet beans). Choose by bean.
 
 ---
 

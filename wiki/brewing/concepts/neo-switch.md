@@ -110,6 +110,10 @@ The immersion bloom is the defining variable for sweetness. Christensen's higher
 
 Add all water at once, switch closed. Steep 3–4 minutes. Open to drain. Results in a good but less nuanced cup — works well for medium/darker roasts.
 
+## Hybrid Flash-Chill (iced) — Kasuya
+
+A two-pour iced recipe on the Switch: 20 g / 150 g hot water onto 80 g ice, **temp kept up** (only two pours, so cooling thins it). Open 50 g (swirl) → **close at 0:40** and pour to 150 g (immersion steep) → **open at 1:30**, swirl and drain. Kasuya found it **smoother with standout sweetness** vs the 4:6-applied pour — his preferred iced method for sweetness-forward beans. Full comparison in [[concepts/flash-chill-iced-coffee]].
+
 ## Key Sources
 - [[sources/hario-switch-review-coffee-chronicler]] — Christensen's full review and recipe derivation
 - [[sources/tetsu-kasuya-devil-recipe-hario-switch]] — Kasuya's devil recipe, step-by-step with timing

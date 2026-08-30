@@ -24,6 +24,7 @@ Popularized the "devil Switch technique" — an early recipe framework for the H
 - Design philosophy: maximize extraction early (open/hot), slow it in later stages (closed/cool) (Fact: [[sources/tetsu-kasuya-devil-recipe-hario-switch]])
 - 2025 "New Hybrid" recipe: 20g / 300ml / 1:15 / starts switch CLOSED (immersion bloom) / 90°C → 70–80°C / 3:30 total; described as producing "a very sweet cup" (Fact: [[sources/kasuya-2025-new-hybrid-hario-switch]])
 - Structural evolution devil → 2025: added immersion bloom phase at start; ratio shifted from 1:14 to 1:15; total time extended 30 sec
+- **Flash-chill iced (2026):** two Switch recipes — 4:6-applied (halved water, sharp acidity) vs a 2-pour immersion hybrid (smoother, sweeter); preferred the hybrid, choose by bean (Fact: [[sources/kasuya-iced-46-vs-hybrid-philocoffea]]); see [[concepts/flash-chill-iced-coffee]]
 
 ## Connections
 

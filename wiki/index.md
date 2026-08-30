@@ -132,6 +132,8 @@ per page, enough context to know whether to drill in.
 | [[brewing/sources/gagne-astringency-mechanism-2022]] | Gagné 2022 (coffeeadastra.com): astringency = filtration problem; astringent compounds nearly insoluble → suspended particles; grind-size ceiling; pressure effect; 70°C low-astringency experiment; decaf immunity; CGA tension; high-medium (practitioner-scientist) | brewing | 2026-06-26 |
 | [[brewing/sources/rao-astringency-management-2020]] | Rao 2020 (scottrao.com): CGA as large molecule extracting less readily (reconciles Gagné filtration model); five-step diagnostic protocol (channeling → cupping → roast batch comparison → sourcing); tannin claim partially superseded; high-medium (practitioner) | brewing | 2026-06-26 |
 | [[brewing/sources/brewing-control-chart-guinard-2023]] | Guinard et al. 2023 (J. Food Science, UC Davis): evidence-based Coffee Brewing Control Chart; 13 sensory attributes mapped on TDS×PE; 'sweet' = aroma illusion (low-TDS/low-PE); two consumer clusters (57% dome/'sweet', 43% saddle specialty+espresso); no single "ideal"; PE=[TDS/(1−TDS)](R−R_abs), R_abs≈2.1; drip only; high credibility | brewing | 2026-08-02 |
+| [[brewing/sources/every-espresso-recipe-explained-hendrick]] | Lance Hendrick (YouTube): six espresso styles on a stock 9-bar machine (ristretto/normale/lungo/turbo/allongé/sprover), varying only ratio + grind; measured grind/dose/yield/TDS/EY; grind sets extraction ceiling (turbo coarse 1:3 → 18% EY < lungo fine 1:3 → 22%); turbo 6-bar-myth debunk (short shots hit ~5 bar); big-yield → cooler temp; EY dogma challenged (drinks 15–18%); high-medium (practitioner/educator) | brewing | 2026-08-30 |
+| [[brewing/sources/kasuya-iced-46-vs-hybrid-philocoffea]] | Kasuya/Philocoffea (YouTube): two flash-chill (急冷) iced recipes on the Hario Switch — A = 4:6 halved-water (sharp acidity, bright Kenya/Ethiopia) vs B = 2-pour immersion hybrid (smoother, standout sweetness); 20g/150g hot/80g ice; method matters even iced at matched strength; choose by bean; Kasuya preferred B; high (practitioner), sensory-only | brewing | 2026-08-30 |
 
 ### Concepts
 | Page | Description | Domain | Updated |
@@ -140,13 +142,16 @@ per page, enough context to know whether to drill in.
 | [[brewing/concepts/neo-switch]] | Hario Switch / Neo Switch — hybrid recipe, 50/50 pour-split, size scaling | brewing | 2026-06-17 |
 | [[brewing/concepts/origami]] | Origami dripper — cone or flat-bottom, versatile | brewing | 2026-06-17 |
 | [[brewing/concepts/graycano]] | Graycano cone dripper — heat-sink design; cone (95°C) and wave/Coin (98°C) modes | brewing | 2026-06-17 |
-| [[brewing/concepts/espresso-fundamentals]] | Dose, yield, ratio, temp, pressure, time reference | brewing | 2026-06-17 |
+| [[brewing/concepts/espresso-fundamentals]] | Espresso core variables; roast mass loss → brew ratio table; flow rate × roast level; transport/diffusion; light-roast strategies; Gagné filtration model + grind ceiling + pressure effect; 3 astringency sources + CGA mechanism tension; pre-infusion mechanics | brewing | 2026-08-30 |
+| [[brewing/concepts/espresso-shot-styles]] | Six-style espresso spectrum (ristretto→normale→lungo→turbo→allongé→sprover) on a stock 9-bar machine, varying only ratio + grind; concentration/EY map; grind sets extraction ceiling; roast pairing; menu-view companion to espresso-fundamentals | brewing | 2026-08-30 |
 | [[brewing/concepts/dialing-in]] | Iterative recipe development sequence for espresso and pour-over | brewing | 2026-06-17 |
 | [[brewing/concepts/46-method]] | Kasuya 4:6 V60 method; flavor axis (pour ratio) + strength axis (pour count) | brewing | 2026-06-17 |
 | [[brewing/concepts/bypass]] | Bypass brewing — water added to cup, not through bed; decouples extraction (EY) from strength (TDS); clarity-without-under-extraction vs. low-EY clarity; a vertical (TDS-down) move on the Brewing Control Chart; worked at TDS 1.43%/EY ~20.5%, ~10% bypass | brewing | 2026-08-01 |
 | [[brewing/concepts/brewing-control-chart]] | Brewing Control Chart (BCC) — TDS × percent-extraction × brew-ratio map; Sensory BCC (13 attributes: bright/fruity high-TDS-low-PE, bitter/roasted high-PE, 'sweet' low-TDS-low-PE); Consumer BCC (2 clusters, no single "ideal"); PE formula + R_abs≈2.1; attributes are *maximized-where*, not guaranteed; temp secondary; drip only | brewing | 2026-08-02 |
 | [[brewing/concepts/comandante-grind-size]] | C40 click→micron reference; C40/C60/Red Clix conversion; per-dripper starting points | brewing | 2026-06-17 |
 | [[brewing/concepts/fast-filters]] | Fast-flowing filters (Meteor, Sibarist) as system variable; enables fine grind on V60 | brewing | 2026-06-17 |
+| [[brewing/concepts/cold-brew]] | Cold brew method — confirmed: more floral, less bitter/acidic; NOT sweeter; light roast + Ethiopian washed optimal; ambient temp 12h brew | brewing | 2026-06-20 |
+| [[brewing/concepts/flash-chill-iced-coffee]] | Flash-chill (急冷) iced — brew hot onto ice; Kasuya's 4:6-applied (sharp acidity) vs 2-pour immersion hybrid (smoother, sweeter); choose by bean; contrast to cold brew | brewing | 2026-08-30 |
 
 ### Entities
 | Page | Description | Domain | Updated |
@@ -164,8 +169,10 @@ per page, enough context to know whether to drill in.
 | [[brewing/entities/decent-espresso]] | Decent Espresso machine — software-controlled espresso; enables Blooming (pressure-hold pause), Allongé (high flow), Filter3 (0-bar no-bypass filter brewer); co-founded by John Buckman | brewing | 2026-06-26 |
 | [[brewing/entities/jonathan-gagne]] | Jonathan Gagné — physicist; author "The Physics of Filter Coffee"; originator of filtration model for coffee astringency (2022); coffeeadastra.com | brewing | 2026-06-26 |
 | [[brewing/entities/uc-davis-coffee-center]] | UC Davis Coffee Center — Ristenpart (engineering/physics; Design of Coffee) + Guinard (sensory); Batali/Frost/Cotter; source of the Brewing Control Chart, cold-brew study, brew-temp finding, and R_abs≈2.1 extraction math; high-credibility anchor | brewing | 2026-08-02 |
-| [[brewing/concepts/cold-brew]] | Cold brew method — confirmed: more floral, less bitter/acidic; NOT sweeter; light roast + Ethiopian washed optimal; ambient temp 12h brew | brewing | 2026-06-20 |
-| [[brewing/concepts/espresso-fundamentals]] | Espresso core variables; roast mass loss → brew ratio table; flow rate × roast level; transport/diffusion; light-roast strategies; Gagné filtration model + grind ceiling + pressure effect; 3 astringency sources + CGA mechanism tension; pre-infusion mechanics | brewing | 2026-06-26 |
+| [[brewing/entities/lance-hendrick]] | Coffee educator/YouTuber; stock-machine espresso spectrum; 18–22% EY skeptic (drinks 15–18%); author of the six-style source | brewing | 2026-08-30 |
+| [[brewing/entities/scott-rao]] | Influential coffee author/consultant; anchors the wiki's espresso + roasting practice (allongé, mass-loss→ratio, astringency, single-variable dialing) | brewing | 2026-08-30 |
+| [[brewing/entities/christopher-hendon]] | Computational chemist (U. Oregon); coffee science incl. Water for Coffee; co-author of the turbo-shot paper (w/ Michael Cameron) | brewing | 2026-08-30 |
+| [[brewing/entities/matt-perger]] | Australian barista, 2013 WBC finalist / Brewers Cup champ, Barista Hustle; popularized the sprover / café crème | brewing | 2026-08-30 |
 
 ### Logs
 
@@ -174,6 +181,7 @@ per page, enough context to know whether to drill in.
 | [[brewing/logs/gesha-village-oma-1931-natural-gold-label]] | Personal log — Cokain/Entrebox Ethiopia Gesha Village OMA Gesha 1931 Natural (Gold Label); bought roasted bean; Neo Switch dual-temp 91/70°C brew, measured TDS 1.56% / EY ~22% / Agtron 75.8; bean identity as-claimed (marketing source) | brewing | 2026-08-24 |
 | [[brewing/logs/cokain-strawberry-chloris-blend]] | Personal log — Cokain/Entrebox Strawberry Chloris blend (Colombia + Yunnan), medium roast; bought; Decent XL Blooming Espresso 15→45g @95°C under-resisted (bloom flow too high → <3 bar); fix = grind finer / more dose; identity as-claimed (marketing) | brewing | 2026-08-24 |
 | [[brewing/logs/reshad-ethiopia-jimma-natural]] | Personal log — Coffee Collective "Reshad", Ethiopia Jimma natural, 74110 (JARC), filter roast; bought; 2 Neo Switch pulls (single-temp 89°C & dual-temp 89/65°C) both ~21.9% EY (TDS 1.52→1.57%); high-credibility roaster source (as-claimed / link-out) | brewing | 2026-08-25 |
+| [[brewing/logs/melet-yunnan-purple-leaf-caturra-k72]] | Personal log — Melet Yunnan 米良·觅月, "Purple-Leaf Caturra" K72-washed, Xiding 1720–1800m (= textbook [[varietals/concepts/dr296\|Dr296]] Catimor misnomer; as-claimed / elevated commercial bias); 6 brews across Graycano/Neo-Switch/Origami, EY ~20–23% / TDS 1.37–1.82% — reads coffee-like vs the tea-like Dr296 target | brewing | 2026-08-25 |
 
 ---
 

@@ -86,9 +86,14 @@ The 4:6 is the conceptual foundation; the Switch recipes are adaptations that la
 ## Key Sources
 - [[sources/kasuya-46-method-philocoffea]] — Kasuya's own description from Philocoffea
 
+## Iced Application (Flash-Chill)
+
+The 4:6 adapts to iced by **halving the water** (300 g → 150 g; 30 g × 5 instead of 60 g × 5) poured onto 80 g ice — Kasuya's "Recipe A." It keeps the method's **sharp acidity/defined outline**, best for bright Kenya/Ethiopia lots. See [[concepts/flash-chill-iced-coffee]] (and its hybrid-Switch counterpart for sweeter beans).
+
 ## Related Concepts
 - [[concepts/v60]] — the dripper this method was designed for
 - [[concepts/neo-switch]] — Kasuya's Switch recipes built on the same ratio and extraction philosophy
+- [[concepts/flash-chill-iced-coffee]] — the halved-water iced application (Recipe A) vs the hybrid immersion route
 - [[concepts/dialing-in]] — the 4:6 method is itself a structured dialling-in framework
 
 ## Open Questions
