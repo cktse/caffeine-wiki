@@ -1447,3 +1447,43 @@ Pages updated: brewing/sources/kasuya-iced-46-vs-hybrid-philocoffea (new), brewi
 Fixed a pre-existing index quirk: two concept rows (`cold-brew`, a duplicate `espresso-fundamentals`) were sitting under the brewing **Entities** header. Moved `cold-brew` into Concepts, merged the richer `espresso-fundamentals` description into its Concepts row, and removed the strays.
 
 ---
+
+## [2026-08-30] ingest | brewing | Sandwich Extraction — Bavis Kwong 2026 WBrC 3rd (Cozy House analysis)
+
+Ingested after an explicit worth-it evaluation (user gate). Verdict: worth it, **Focused scope** — the specific comp recipe is the vehicle for transferable principles. Source is a reputable SCA educator (暖窩 Cozy House); flags: mild **commercial bias** (course seller), recipe is **secondhand** comp transcription with acknowledged discrepancies (215g vs 250g; 94 vs 95 °C), Kasuya re-roast rumor **unconfirmed**.
+
+- **New concept [[brewing/concepts/sandwich-extraction]]** — particle-size stratification: `1st paper → 2g fines → 2nd paper → 14g coarse`. Coarse top = acidity/florals (percolation); fines bottom = sweetness/body (delayed, low-agitation, near-immersion). Key reframe: **fines as a structural tool**, not a defect.
+- **Best transferable ideas:** (1) grind distribution isn't just even/uneven — fractions have roles; (2) design extraction from the **sensory goal backward**; (3) every complex step must justify itself (and this is a **competition**, not operational, technique). Plus the **dry bloom as a timing device** (15g stays on top to delay the fines), and the dripper as a **thermal-gradient** device.
+- **Cross-domain (roast↔brew):** extreme short-development roast (DTR ~10%, ~57s DT) bets on acidity; the bottom-fines immersion adds sweetness back → cross-ref added on [[roasting/concepts/roasting-parameters]].
+- **Deferred (Focused):** standalone water concept (35ppm/pH6 vs SCA 50–175ppm) and varietal/processing spinouts (Green Tip Geisha, slow-dry/10.4% moisture) left as open questions; Roastwork/Janson/Sibarist mentioned, not filed as entities.
+
+Pages updated: brewing/sources/sandwich-extraction-bavis-kwong-cozyhouse (new), brewing/concepts/sandwich-extraction (new), brewing/entities/{bavis-kwong,cozy-house-coffee,contour-drip} (new), brewing/entities/tetsu-kasuya (coach note), roasting/concepts/roasting-parameters (roast↔brew cross-ref), wiki/index.md.
+
+---
+
+## [2026-08-30] ingest | brewing | Clarity Pyramid — Simon Gautherin 2026 WBrC 2nd (Cozy House analysis)
+
+Sibling of the sandwich-extraction ingest (same series/author/competition); worth-it verdict + **Focused scope** to match. Source: Cozy House (SCA educator); flags: mild commercial bias, recipe secondhand/as-claimed (ambiguous ~140g cut).
+
+- **New concept [[brewing/concepts/clarity-pyramid]]** — framework *green creates → roast unlocks → brew selects → water highlights* (a near-restatement of the wiki's own variable-chain thesis; cross-linked to [[overview]]), plus **selective extraction** = subtraction (front ~10g discard + tail cut ~140/200g). Clarity defined as **legibility, not weakness** → the low-TDS/low-PE corner of the [[brewing/concepts/brewing-control-chart|BCC]].
+- **No-bypass valve** family made explicit: NextLevel Pulsar ↔ Hario Switch (home substitute) ↔ Rao Filter3 / sprover.
+- **Water:** 80ppm Mg:K:Si ≈ 3:2:1 → citrus/stone-fruit/silky (Simon co-founds APAX LAB). **Second source now with rich mineral→sensory content and no water concept** — flagged as an increasingly clear gap (open item, deferred under Focused).
+- **Podium trio** captured: Nas (resistance) / Simon (selection) / Bavis (structure); sandwich ↔ clarity cross-linked as contrast (addition vs subtraction).
+- New entities: [[brewing/entities/simon-gautherin]], [[brewing/entities/apax-lab]], [[brewing/entities/nextlevel-pulsar]].
+
+Pages updated: brewing/sources/clarity-pyramid-simon-gautherin-cozyhouse (new), brewing/concepts/clarity-pyramid (new), brewing/entities/{simon-gautherin,apax-lab,nextlevel-pulsar} (new), brewing/concepts/sandwich-extraction (sibling cross-link), wiki/index.md.
+
+---
+
+## [2026-08-30] ingest | brewing | Nas Jaafar "Resistance" (WBrC champion) + Top-3 roundup (Cozy House) — completes the podium trio
+
+Two more from the Cozy House WBrC series (Focused scope, matching the siblings). Source: SCA educator; flags: commercial bias, recipes/figures as-claimed (secondhand).
+
+- **New concept [[brewing/concepts/flow-resistance]]** (from the champion piece) — the transferable pour-over lens: **flow is set by bed structure, not pour volume**; goal = **even, not minimal** resistance (input vs channel); flow/resistance/contact-time triad + 3 classroom failure cases; fix order (level bed → distribute pour → *then* grind); WDT/low-RPM fines control; hybrid steep-then-release recipe (UFO V3 on Switch, 15g/200g/92°C, 2:10). Linked to the espresso channeling/[[shared/astringency]] analogue.
+- **New synthesis hub [[brewing/concepts/wbrc-2026-brewing-philosophies]]** (the author's roundup) — trio as one set: **uniformity** (Nas) / **subtraction** (Simon) / **addition** (Bavis); contest scoring = say-matches-cup; **3 trends** (hybrid extraction mainstream; fines management on stage; bean narrative = "why not how good"); **Geisha-homogenization → resource-competition** caveat (reinforces the wiki's green-selection focus).
+- New entities: [[brewing/entities/nas-jaafar]], [[brewing/entities/ufo-v3]]. Trio cross-links added to [[brewing/concepts/sandwich-extraction]] + [[brewing/concepts/clarity-pyramid]]; [[brewing/overview]] gained a Competition Brewing section.
+- Podium now complete in-wiki: Nas (resistance) / Simon (clarity) / Bavis (sandwich).
+
+Pages updated: brewing/sources/{nas-jaafar-resistance-cozyhouse,wbrc-2026-top3-roundup-cozyhouse} (new), brewing/concepts/{flow-resistance,wbrc-2026-brewing-philosophies} (new), brewing/entities/{nas-jaafar,ufo-v3} (new), brewing/concepts/{sandwich-extraction,clarity-pyramid} (trio cross-links), brewing/overview (Competition Brewing section), wiki/index.md.
+
+---

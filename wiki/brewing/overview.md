@@ -32,6 +32,10 @@ Use this to pick starting parameters for a given coffee.
 
 ---
 
+## Competition Brewing (2026 WBrC)
+
+The 2026 World Brewers Cup top three offer three transferable pour-over ideas, all pointing to **sequence/choose, don't just maximize** — see [[concepts/wbrc-2026-brewing-philosophies]]: **[[concepts/flow-resistance|even resistance]]** (Nas, 1st), **[[concepts/clarity-pyramid|selective extraction]]** (Simon, 2nd), **[[concepts/sandwich-extraction|particle-size stratification]]** (Bavis, 3rd). Shared trend: **hybrid (steep-then-release) extraction** via valve brewers (Switch / Pulsar / Tricolate) and **fines management** (WDT, low-RPM grind).
+
 ## Pour-Over Drippers
 
 - [[concepts/v60]] — Hario V60 (ceramic); cone, single large hole; requires controlled pour technique

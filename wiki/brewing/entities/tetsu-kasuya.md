@@ -31,3 +31,4 @@ Popularized the "devil Switch technique" — an early recipe framework for the H
 - [[entities/asser-christensen]] — developed a modified/higher-extraction version of Kasuya's Switch technique
 - [[entities/hario-switch]] — the product his technique was built for
 - [[concepts/neo-switch]] — technique context
+- [[entities/bavis-kwong]] — coached her toward the 2026 WBrC (3rd); see [[concepts/sandwich-extraction]]

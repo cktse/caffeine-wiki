@@ -106,6 +106,8 @@ Normalizes development across different batch sizes, roasters, and roast profile
 | 25–30% | More developed; espresso-oriented; "perfectly OK for dark roasts" (sourced: Rao 2020); more body and sweetness |
 | >30% | Heavy development; dark roast territory; bittersweet character |
 
+**Roast↔brew co-design (competition example)**: an extreme **short development** roast (DTR ~10%, ~57s DT) maximizes volatile florals and acid complexity but leaves Maillard sweetness undeveloped — a deliberate "bet on acidity." Bavis Kwong's 2026 WBrC routine pairs exactly this roast with a brew *structure* that adds the sweetness back (a bottom fines-immersion layer). Roast curve and extraction are one system — see [[brewing/concepts/sandwich-extraction]].
+
 **Critical limitations (sourced: Rao 2020)**:
 - DTR is a useful QC tool and target — but do **not** drop a roast based on DTR alone. Drop based on color or bean temperature.
 - If RoR is unstable (crashing, spiking), DTR is meaningless as a quality indicator — get smooth RoR first.
