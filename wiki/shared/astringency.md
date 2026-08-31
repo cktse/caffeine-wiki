@@ -112,6 +112,7 @@ This implies:
 - [[shared/quakers]] — quakers as astringent material source; sorting protocols
 - [[roasting/concepts/roasting-parameters]] — CGA: underdevelopment leaves excess CGA → possible astringency via dissolved mechanism
 - [[brewing/entities/jonathan-gagne]] — originator of the filtration model
+- [[brewing/concepts/bed-depth]] — deeper beds improve filtration (surface-adsorption model); a narrow water column keeps microscopic velocity gentle → less astringency
 - [[brewing/entities/decent-espresso]] — Filter3 and Blooming as high-EY low-astringency strategies consistent with Gagné's model
 
 ## Understanding Evolution (Timeline)

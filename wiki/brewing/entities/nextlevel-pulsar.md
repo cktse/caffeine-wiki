@@ -8,7 +8,7 @@ domain: brewing
 
 ## What / Who
 
-A **flat-bottom, no-bypass** pour-over dripper with a **top water-dispersion cap** and a **bottom flow valve**, made by NextLevel.
+A **flat-bottom, no-bypass** pour-over dripper with a **top water-dispersion cap** and a **bottom flow valve**, made by NextLevel. A narrower **Pulsar Mini** (~0.6× diameter) also exists for smaller doses.
 
 ## Relevance
 
@@ -17,6 +17,7 @@ The dripper behind Simon Gautherin's **[[brewing/concepts/clarity-pyramid|Clarit
 ## Key Facts
 - Flat bed + dispersion cap + bottom valve; no-bypass = minimises water slipping past the bed (source: [[brewing/sources/clarity-pyramid-simon-gautherin-cozyhouse]]).
 - Provides control, not a correction-free result — too coarse + too-short steep → aroma without sweetness; too fine + too-long valve close → slow flow, dry tail (source: same).
+- **Pulsar Mini** brews the *same* recipe as the Pulsar at ~0.6× dose (e.g. 25 g → 15 g) at matched **bed depth** — Gagné treats diameter as a batch-size choice, depth as the flavor lever (source: [[brewing/sources/gagne-bed-depth-2025]]). See [[brewing/concepts/bed-depth]].
 
 ## Connections
 - [[brewing/concepts/clarity-pyramid]] — the technique it enables

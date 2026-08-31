@@ -1504,3 +1504,17 @@ Corrected the misspelled name (from the earlier source's metadata) to the real s
 Pages updated: brewing/sources/gagne-grinder-psd-analysis-2023 (new), brewing/concepts/particle-size-distribution (new), brewing/entities/{kaffeemacher,zhaw-coffee-excellence-center} (new), brewing/entities/jonathan-gagne + {espresso-fundamentals,flow-resistance,sandwich-extraction} (cross-links), renamed lance-hedrick + every-espresso-recipe-explained-hedrick (+ all referrers), wiki/index.md.
 
 ---
+
+## [2026-08-31] ingest | brewing | The Importance of Bed Depth (Gagné 2025)
+
+High-credibility (Gagné). Bed depth was an uncovered fundamental parameter; ties into the just-added PSD/fines work and the existing astringency filtration model.
+
+- **New concept [[brewing/concepts/bed-depth]]** — dripper **diameter = batch size** (idealized no-bypass: same time/TDS/EY, bigger batch; watch water-column drop rate, not total drip rate, across sizes) vs bed **depth = a fundamental flavor parameter**. Four mechanisms: Darcy resistance (→ coarser and/or longer), dilutes channel damage, better filtration of insolubles, altered bottom-of-bed extraction. Deeper = coarser + longer + **more forgiving**, more body/sweetness/complexity. Includes Gagné's depth→grind/time **cheat sheet** (1:17, EG-1; ≥20mm extrapolated toward Rao's deeper 20–23mm).
+- **Filtration model of astringency (hypothesis)** — astringent long molecules adsorb onto particle/fines surfaces; trapping depends on bed depth/tortuosity + microscopic fluid velocity (pressure / water-column height). Deeper bed + gentle velocity → less astringency; explains narrow-water-column preference, cloudy/astringent espresso-machine filter coffee (except 0-bar Filter3), and shallow-bed finickiness. Flagged explicitly as unproven. Cross-linked to [[shared/astringency]].
+- **Batch brew = just a deep bed** (best ~5–6 min); **espresso**: filtration matters less (high pressure), thicker puck → more crema.
+- No new entities — **Pulsar Mini** folded into [[brewing/entities/nextlevel-pulsar]]; updated [[brewing/entities/jonathan-gagne]]; reciprocal links on [[brewing/concepts/particle-size-distribution]], [[brewing/concepts/espresso-fundamentals]].
+- **Lint note (not fixed):** duplicate `scott-rao` entity exists in *both* brewing/ and roasting/ — worth reconciling.
+
+Pages updated: brewing/sources/gagne-bed-depth-2025 (new), brewing/concepts/bed-depth (new), brewing/entities/{jonathan-gagne,nextlevel-pulsar}, shared/astringency, brewing/concepts/{particle-size-distribution,espresso-fundamentals} (cross-links), wiki/index.md.
+
+---

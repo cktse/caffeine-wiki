@@ -58,6 +58,7 @@ The recent WBrC ingests treated fines as a practitioner lever in opposite direct
 - [[brewing/concepts/comandante-grind-size]] — grind setting → size (click/micron); this is the *distribution* behind the median
 - [[shared/astringency]] — finer grind → more liberated astringent particles (the ceiling)
 - [[brewing/concepts/dialing-in]] — grind-first adjustment; here, you're adjusting fines
+- [[brewing/concepts/bed-depth]] — deeper beds filter fines better; grind offsets pair with depth
 
 ## Open Questions
 - Metrics → taste mapping is unproven; need many more datasets to link unimodality/uniformity to specific sensory outcomes.

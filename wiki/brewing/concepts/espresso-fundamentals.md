@@ -213,6 +213,7 @@ See [[shared/astringency]] for the full filtration model, temperature and pressu
 ## Related Concepts
 - [[brewing/concepts/espresso-shot-styles]] — the *menu* view: ristretto→sprover as stock-machine recipes (ratio + grind); this page is the mechanistic *why*
 - [[brewing/concepts/particle-size-distribution]] — grinder science: unimodality (fines) vs uniformity (boulders); **dialling in espresso = dialling in the fines fraction**, so grinder choice shifts EY and the clarity↔mouthfeel balance
+- [[brewing/concepts/bed-depth]] — puck depth: percolation resistance, filtration (less relevant at espresso pressure), and crema; deep-bed/updosing for channeling
 - [[concepts/dialing-in]]
 - [[shared/astringency]] — full filtration model; grind-size ceiling; pressure and temperature effects; CGA mechanism tension
 - [[shared/quakers]] — immature beans; sorting; cup impact on astringency
