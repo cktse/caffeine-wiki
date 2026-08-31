@@ -1487,3 +1487,20 @@ Two more from the Cozy House WBrC series (Focused scope, matching the siblings).
 Pages updated: brewing/sources/{nas-jaafar-resistance-cozyhouse,wbrc-2026-top3-roundup-cozyhouse} (new), brewing/concepts/{flow-resistance,wbrc-2026-brewing-philosophies} (new), brewing/entities/{nas-jaafar,ufo-v3} (new), brewing/concepts/{sandwich-extraction,clarity-pyramid} (trio cross-links), brewing/overview (Competition Brewing section), wiki/index.md.
 
 ---
+
+## [2026-08-31] ingest | brewing | Analyzing 300 PSDs for 24 espresso grinders (Gagné 2023)
+
+High-credibility grind science (Jonathan Gagné analysing the Kaffeemacher/ZHAW 24-grinder, ~300-PSD dataset; Camsize X2). Fills a real gap and **grounds the "fines management" theme** that ran through the WBrC ingests.
+
+- **New concept [[brewing/concepts/particle-size-distribution]]** — bimodal fines+nominal PSD; two orthogonal grinder metrics: **unimodality** (few fines, at 340μm reference) vs **uniformity** (few boulders); tri-lognormal model. Findings: conical < flat on avg; unimodality↔uniformity correlate (contra hearsay); RPM effect grinder-specific; burr **geometry > size**; blind-taste winners mid-range (PSD isn't everything).
+- **Dial-in headline:** *dialling in espresso = dialling in the fines fraction* → fewer-fines grinders must grind **finer**; counter-intuitive **over-shooting** (unimodal pucks end up with more fines/g); geophysics permeability law fails for espresso.
+- **Nuance flagged:** contradicts the blanket "low-RPM = fewer fines" practitioner claim (Nas) — Gagné finds RPM's PSD effect is grinder-specific. Cross-refs added on [[brewing/concepts/flow-resistance]], [[brewing/concepts/sandwich-extraction]], [[brewing/concepts/espresso-fundamentals]].
+- New entities: [[brewing/entities/kaffeemacher]], [[brewing/entities/zhaw-coffee-excellence-center]]. Updated [[brewing/entities/jonathan-gagne]].
+
+## [2026-08-31] fix | brewing | Rename Lance Hendrick → Lance Hedrick
+
+Corrected the misspelled name (from the earlier source's metadata) to the real spelling **Lance Hedrick**, per user go-ahead. `git mv` both files (entities/lance-hedrick, sources/every-espresso-recipe-explained-hedrick); token-replaced Hendrick→Hedrick across all wiki pages **except this log** (append-only history retains the original spelling). All inbound wikilinks updated.
+
+Pages updated: brewing/sources/gagne-grinder-psd-analysis-2023 (new), brewing/concepts/particle-size-distribution (new), brewing/entities/{kaffeemacher,zhaw-coffee-excellence-center} (new), brewing/entities/jonathan-gagne + {espresso-fundamentals,flow-resistance,sandwich-extraction} (cross-links), renamed lance-hedrick + every-espresso-recipe-explained-hedrick (+ all referrers), wiki/index.md.
+
+---

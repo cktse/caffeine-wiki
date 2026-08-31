@@ -117,7 +117,7 @@ Long espresso with high flow rate and high water volume. Works on any machine wi
 - ~2.5× more concentrated than Filter3 (Decent)
 - **Channeling risk**: long water volume amplifies any puck weakness; requires deep bed (updosing), careful puck prep, or Decent's adaptive flow profiling to manage
 - Validated at commercial scale: Rao served ~150 Allongés/day at his Montreal café with dedicated grinder and puck prep routine
-- **Stock-machine allongé** ([[brewing/entities/lance-hendrick|Hendrick]]): on a fixed 9-bar machine an allongé self-profiles (pressure rises to ~8 bar then cascades as resistance falls) and measured **~22% EY at 1:5.6** — lower than Rao's 26–27% (flow-controlled). "Allongé" spans a wide EY by grind/flow. See [[brewing/concepts/espresso-shot-styles]].
+- **Stock-machine allongé** ([[brewing/entities/lance-hedrick|Hedrick]]): on a fixed 9-bar machine an allongé self-profiles (pressure rises to ~8 bar then cascades as resistance falls) and measured **~22% EY at 1:5.6** — lower than Rao's 26–27% (flow-controlled). "Allongé" spans a wide EY by grind/flow. See [[brewing/concepts/espresso-shot-styles]].
 
 ### Turbo Shot (Allongé alternative for challenging setups)
 
@@ -212,6 +212,7 @@ See [[shared/astringency]] for the full filtration model, temperature and pressu
 
 ## Related Concepts
 - [[brewing/concepts/espresso-shot-styles]] — the *menu* view: ristretto→sprover as stock-machine recipes (ratio + grind); this page is the mechanistic *why*
+- [[brewing/concepts/particle-size-distribution]] — grinder science: unimodality (fines) vs uniformity (boulders); **dialling in espresso = dialling in the fines fraction**, so grinder choice shifts EY and the clarity↔mouthfeel balance
 - [[concepts/dialing-in]]
 - [[shared/astringency]] — full filtration model; grind-size ceiling; pressure and temperature effects; CGA mechanism tension
 - [[shared/quakers]] — immature beans; sorting; cup impact on astringency

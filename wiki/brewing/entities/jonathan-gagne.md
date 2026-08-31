@@ -35,6 +35,7 @@ He is also the first in this wiki to note that wine tannins (the primary astring
 - Empirically tested the 70°C low-astringency strategy; confirmed EY 27% without astringency but with significantly duller cup profile; Rao confirmed the same finding independently years earlier
 - SOL dripper experiment (Canadian Roasting Society, with Thibaut Paggen): near-espresso grind + even flow + paper filter + thick bed still produced unavoidable astringency, establishing the grind-size ceiling concept
 - Scott Rao published Gagné's book and participated in the 70°C experiment discussion; Rao subsequently cited Gagné's suspended-particle theory in his 2025 Decent Espresso masterclass
+- 2023 PSD analysis of the Kaffeemacher/ZHAW 24-grinder dataset: defined **unimodality** (few fines) vs **uniformity** (few boulders); "dialling in espresso = dialling in the fines fraction"; over-shooting effect (source: [[brewing/sources/gagne-grinder-psd-analysis-2023]])
 
 ## Connections
 
@@ -43,3 +44,4 @@ He is also the first in this wiki to note that wine tannins (the primary astring
 - [[brewing/sources/gagne-astringency-mechanism-2022]] — primary source page
 - [[brewing/concepts/espresso-fundamentals]] — astringency section updated with Gagné's model
 - [[brewing/entities/decent-espresso]] — Filter3 (0 bar, thick bed, paper filter) is the Decent implementation most consistent with Gagné's low-astringency filtration conditions
+- [[brewing/concepts/particle-size-distribution]] — his grinder-characterization work; [[brewing/entities/kaffeemacher]] / [[brewing/entities/zhaw-coffee-excellence-center]] provided the dataset

@@ -72,6 +72,7 @@ Too much bottom fines (>~2g → stall/bitter) · mid paper floats up and remixes
 - [[brewing/concepts/bypass]] — preferred way to adjust final strength without disturbing the layers
 - [[brewing/concepts/neo-switch]] — Hario Switch as an accessible substitute (valve controls bottom contact time)
 - [[brewing/concepts/comandante-grind-size]] — grind/particle context (sieving, fines)
+- [[brewing/concepts/particle-size-distribution]] — the grinder science behind fines/boulders (why the 900μm sieve + high-RPM "adequate fines" grinder choice matters)
 - [[roasting/concepts/roasting-parameters]] — DTR / short-development roast the brew structure compensates for
 
 ## Open Questions

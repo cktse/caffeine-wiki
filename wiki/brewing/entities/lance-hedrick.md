@@ -1,10 +1,10 @@
 ---
-title: "Lance Hendrick"
+title: "Lance Hedrick"
 entity_type: person
 domain: brewing
 ---
 
-# Lance Hendrick
+# Lance Hedrick
 
 ## What / Who
 
@@ -12,10 +12,10 @@ Coffee educator and YouTuber known for approachable, measurement-driven espresso
 
 ## Relevance
 
-Author of the six-style espresso walkthrough ([[brewing/sources/every-espresso-recipe-explained-hendrick]]) that anchors the [[brewing/concepts/espresso-shot-styles]] spectrum. His stock-machine framing complements the Decent/flow-control framing in [[brewing/concepts/espresso-fundamentals]].
+Author of the six-style espresso walkthrough ([[brewing/sources/every-espresso-recipe-explained-hedrick]]) that anchors the [[brewing/concepts/espresso-shot-styles]] spectrum. His stock-machine framing complements the Decent/flow-control framing in [[brewing/concepts/espresso-fundamentals]].
 
 ## Key Facts
-- Demonstrates ristretto → sprover on one 9-bar machine, changing only ratio and grind (source: [[brewing/sources/every-espresso-recipe-explained-hendrick]]).
+- Demonstrates ristretto → sprover on one 9-bar machine, changing only ratio and grind (source: [[brewing/sources/every-espresso-recipe-explained-hedrick]]).
 - Personal preference: **turbo shots**, ~15–18% EY, prioritizing VOC/aromatic preservation (source: same).
 
 ## Connections

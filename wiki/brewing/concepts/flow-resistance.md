@@ -44,6 +44,7 @@ Without a valve, buy contact time by slowing/pulsing the back pours and extendin
 - [[brewing/sources/nas-jaafar-resistance-cozyhouse]] — Nas Jaafar's "Resistance" routine; even-bed reasoning; three failure cases; fines/WDT; hybrid recipe; high-medium (practitioner/educator), recipe as-claimed
 
 ## Related Concepts
+- [[brewing/concepts/particle-size-distribution]] — the grinder science under "fines"; **nuance:** Gagné finds low-RPM's effect on the PSD is *grinder-specific* (often just a grind-size shift), so "low-RPM = fewer fines" isn't universal
 - [[brewing/concepts/dialing-in]] — the adjustment sequence (bed/pour before grind)
 - [[brewing/concepts/wbrc-2026-brewing-philosophies]] — the trio + trends this sits within
 - [[brewing/concepts/clarity-pyramid]] · [[brewing/concepts/sandwich-extraction]] — the 2nd/3rd-place siblings
