@@ -76,3 +76,4 @@ No-bypass filter brewing within a Decent:
 - [[roasting/entities/scott-rao]] — developed Blooming espresso on Decent; demonstrated Filter3 and Allongé
 - [[brewing/concepts/espresso-fundamentals]] — Blooming, Allongé, Filter3 documented
 - [[shared/quakers]] — quaker removal as Rao's explanation for his coffee's low astringency in all brew methods
+- [[brewing/logs/cokain-strawberry-chloris-blend]] — personal log: a Decent XL Blooming Espresso pull (under-resisted bloom → <3 bar; fix = grind finer / more dose)

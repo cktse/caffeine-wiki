@@ -182,7 +182,6 @@ per page, enough context to know whether to drill in.
 | [[brewing/entities/jonathan-gagne]] | Jonathan Gagné — physicist; author "The Physics of Filter Coffee"; originator of filtration model for coffee astringency (2022); coffeeadastra.com | brewing | 2026-06-26 |
 | [[brewing/entities/uc-davis-coffee-center]] | UC Davis Coffee Center — Ristenpart (engineering/physics; Design of Coffee) + Guinard (sensory); Batali/Frost/Cotter; source of the Brewing Control Chart, cold-brew study, brew-temp finding, and R_abs≈2.1 extraction math; high-credibility anchor | brewing | 2026-08-02 |
 | [[brewing/entities/lance-hedrick]] | Coffee educator/YouTuber; stock-machine espresso spectrum; 18–22% EY skeptic (drinks 15–18%); author of the six-style source | brewing | 2026-08-30 |
-| [[brewing/entities/scott-rao]] | Influential coffee author/consultant; anchors the wiki's espresso + roasting practice (allongé, mass-loss→ratio, astringency, single-variable dialing) | brewing | 2026-08-30 |
 | [[brewing/entities/christopher-hendon]] | Computational chemist (U. Oregon); coffee science incl. Water for Coffee; co-author of the turbo-shot paper (w/ Michael Cameron) | brewing | 2026-08-30 |
 | [[brewing/entities/matt-perger]] | Australian barista, 2013 WBC finalist / Brewers Cup champ, Barista Hustle; popularized the sprover / café crème | brewing | 2026-08-30 |
 | [[brewing/entities/bavis-kwong]] | Hong Kong roaster (Roastwork); 2025 HK Brewers Cup champ, 2026 WBrC 3rd; devised sandwich extraction; coached by Kasuya | brewing | 2026-08-30 |
@@ -232,7 +231,7 @@ per page, enough context to know whether to drill in.
 | Page | Description | Domain | Updated |
 |---|---|---|---|
 | [[roasting/entities/aillio-bullet]] | Aillio Bullet R2 Pro — user's roaster; drum + IR; 128-point IBTS (addresses Rao's 2020 single-sensor concern); P/F/D/A control map; starting point profiles; CT data sourced (Lindsey 2024) | roasting | 2026-06-26 |
-| [[roasting/entities/scott-rao]] | Scott Rao — inventor of DTR; authored "The Coffee Roaster's Companion" (2014); consulted 600+ roasters; primary practitioner authority for roasting parameters in this wiki | roasting | 2026-06-26 |
+| [[roasting/entities/scott-rao]] | Scott Rao — inventor of DTR; authored "The Coffee Roaster's Companion" (2014); consulted 600+ roasters; primary practitioner authority for roasting parameters — **and** the wiki's single cross-domain Rao entity (brewing/espresso: allongé, mass-loss→ratio, filter TDS target, astringency/CGA, single-variable dialing) | roasting | 2026-08-31 |
 
 ---
 

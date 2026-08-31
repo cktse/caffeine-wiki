@@ -45,7 +45,7 @@ A reputable-educator walkthrough (YouTube) of **six espresso "styles"** pullable
 
 ## Key Entities Mentioned
 - [[brewing/entities/lance-hedrick]] — author; measured and demonstrated all six styles
-- [[brewing/entities/scott-rao]] — popularized the modern light-roast **allongé** (Montreal)
+- [[roasting/entities/scott-rao]] — popularized the modern light-roast **allongé** (Montreal)
 - [[brewing/entities/christopher-hendon]] — co-author of the **turbo shot** paper (with Michael Cameron)
 - [[brewing/entities/matt-perger]] — popularized the **sprover / café crème** at the 2013 WBC
 
@@ -55,5 +55,5 @@ A reputable-educator walkthrough (YouTube) of **six espresso "styles"** pullable
 - Single-pull measurements (n=1) — the decimals (e.g. 19.99% vs 22.06%) shouldn't be over-read.
 
 ## Wiki Pages Updated
-- Created: [[brewing/concepts/espresso-shot-styles]], [[brewing/entities/lance-hedrick]], [[brewing/entities/scott-rao]], [[brewing/entities/christopher-hendon]], [[brewing/entities/matt-perger]]
+- Created: [[brewing/concepts/espresso-shot-styles]], [[brewing/entities/lance-hedrick]], [[roasting/entities/scott-rao]], [[brewing/entities/christopher-hendon]], [[brewing/entities/matt-perger]]
 - Updated: [[brewing/concepts/espresso-fundamentals]] (cross-link), [[brewing/overview]] (espresso section), wiki/index.md, wiki/log.md

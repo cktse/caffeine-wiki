@@ -19,5 +19,5 @@ Author of the six-style espresso walkthrough ([[brewing/sources/every-espresso-r
 - Personal preference: **turbo shots**, ~15–18% EY, prioritizing VOC/aromatic preservation (source: same).
 
 ## Connections
-- Popularizers he cites: [[brewing/entities/scott-rao]] (allongé), [[brewing/entities/christopher-hendon]] (turbo), [[brewing/entities/matt-perger]] (sprover).
+- Popularizers he cites: [[roasting/entities/scott-rao]] (allongé), [[brewing/entities/christopher-hendon]] (turbo), [[brewing/entities/matt-perger]] (sprover).
 - Related to [[brewing/concepts/espresso-shot-styles]], [[brewing/concepts/espresso-fundamentals]].

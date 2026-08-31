@@ -1518,3 +1518,22 @@ High-credibility (Gagné). Bed depth was an uncovered fundamental parameter; tie
 Pages updated: brewing/sources/gagne-bed-depth-2025 (new), brewing/concepts/bed-depth (new), brewing/entities/{jonathan-gagne,nextlevel-pulsar}, shared/astringency, brewing/concepts/{particle-size-distribution,espresso-fundamentals} (cross-links), wiki/index.md.
 
 ---
+
+## [2026-08-31] lint | brewing | Full lint + scott-rao reconciliation
+
+Link-graph scan (all wiki pages) + brewing-domain review.
+
+**Fixed:**
+- **Duplicate `scott-rao` reconciled.** `roasting/entities/scott-rao` kept as the single cross-domain Rao entity; merged the brewing-specific facts (allongé 26–27% EY, filter TDS 1.35–1.4%, CGA/astringency, single-variable dialing) into it; `git rm` the `brewing/entities/scott-rao` duplicate; repointed 4 links (bed-depth, every-espresso-explained-hedrick, gagne-bed-depth-2025, lance-hedrick) → roasting; removed the duplicate index row and enriched the canonical one. Basename `scott-rao` is now unambiguous.
+- **3 orphan personal logs re-linked** (previously only in the index): [[brewing/logs/reshad-ethiopia-jimma-natural]] + [[brewing/logs/gesha-village-oma-1931-natural-gold-label]] ← "Example brew logs" on [[brewing/concepts/neo-switch]]; [[brewing/logs/cokain-strawberry-chloris-blend]] ← [[brewing/entities/decent-espresso]]. Zero brewing orphans now.
+
+**Clean:** no real broken links. The scan's 4 flags are non-issues — `dr296\|` is an escaped table-pipe (valid), and three `log →` links are append-only history (pre-rename lance-hendrick; long-deleted china-yunnan / disease-resistance) left untouched by design.
+
+**Flagged, not fixed:**
+- **Missing `water` concept (top priority).** Four+ sources now carry substantive mineral→sensory content with no home: Bavis 35 ppm low-mineral (sandwich), Simon 80 ppm MgSO₄:KCl:SiO₂≈3:2:1 (clarity-pyramid), Gagné's water-column/microscopic-velocity (bed-depth), SCA 50–175 ppm reference, APAX LAB. Recommend creating [[brewing/concepts/water]] and back-linking these.
+- Minor un-homed mentions: **Tricolate** (valve/no-bypass brewer) and **WDT** (distribution tool) — candidate entity stubs, low priority.
+- Contradictions already surfaced/cross-noted, no action: allongé EY (Rao 26–27% vs Hedrick ~22%); RPM→fines (Gagné grinder-specific vs Nas low-RPM).
+
+Pages updated: roasting/entities/scott-rao (merged), brewing/concepts/neo-switch, brewing/entities/decent-espresso, wiki/index.md; deleted brewing/entities/scott-rao.
+
+---

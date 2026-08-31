@@ -53,7 +53,7 @@ Astringency likely comes from **long molecules** that don't dissolve at brew tem
 ## Key Entities Mentioned
 - [[brewing/entities/jonathan-gagne]] — author
 - [[brewing/entities/nextlevel-pulsar]] — Pulsar + the new **Pulsar Mini** (0.6× diameter) motivating the post
-- [[brewing/entities/scott-rao]] — parallel bed-depth post; recommends deeper 20–23 mm beds
+- [[roasting/entities/scott-rao]] — parallel bed-depth post; recommends deeper 20–23 mm beds
 - [[brewing/entities/lance-hedrick]] — cited on portafilter diameter (same diameter=batch logic)
 
 ## Contradictions / Open Questions

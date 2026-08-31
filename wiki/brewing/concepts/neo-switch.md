@@ -114,6 +114,12 @@ Add all water at once, switch closed. Steep 3–4 minutes. Open to drain. Result
 
 A two-pour iced recipe on the Switch: 20 g / 150 g hot water onto 80 g ice, **temp kept up** (only two pours, so cooling thins it). Open 50 g (swirl) → **close at 0:40** and pour to 150 g (immersion steep) → **open at 1:30**, swirl and drain. Kasuya found it **smoother with standout sweetness** vs the 4:6-applied pour — his preferred iced method for sweetness-forward beans. Full comparison in [[concepts/flash-chill-iced-coffee]].
 
+## Example brew logs (personal)
+Real Neo Switch brews logged in this wiki:
+- [[brewing/logs/reshad-ethiopia-jimma-natural]] — single- & dual-temp (89/65 °C) pulls, both ~21.9% EY
+- [[brewing/logs/gesha-village-oma-1931-natural-gold-label]] — dual-temp 91/70 °C, TDS 1.56% / EY ~22%
+- [[brewing/logs/melet-yunnan-purple-leaf-caturra-k72]] — dual-temp + bypass across several pulls
+
 ## Key Sources
 - [[sources/hario-switch-review-coffee-chronicler]] — Christensen's full review and recipe derivation
 - [[sources/tetsu-kasuya-devil-recipe-hario-switch]] — Kasuya's devil recipe, step-by-step with timing

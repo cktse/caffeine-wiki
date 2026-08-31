@@ -42,7 +42,7 @@ Both optimal **grind and brew time rise** with depth. Burr shifts are **relative
 | 20 mm | 4:00–5:40 | +80 µm | 30 g | 19.5 g |
 | 23.3 mm | 4:20–6:45 | +125 µm | 35 g | 22.8 g |
 
-Rows ≥20 mm extrapolate toward [[brewing/entities/scott-rao|Scott Rao]]'s parallel recommendation (deeper **20–23 mm**). Batch brews (best ~5–6 min vs pour-over ~3:30) are, in this view, **just deeper beds** — Rao's 90s rule of thumb put batch optimal depth at **3–5 cm**.
+Rows ≥20 mm extrapolate toward [[roasting/entities/scott-rao|Scott Rao]]'s parallel recommendation (deeper **20–23 mm**). Batch brews (best ~5–6 min vs pour-over ~3:30) are, in this view, **just deeper beds** — Rao's 90s rule of thumb put batch optimal depth at **3–5 cm**.
 
 ## Filtration model of astringency (hypothesis)
 
