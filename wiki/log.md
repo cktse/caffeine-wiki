@@ -1537,3 +1537,23 @@ Link-graph scan (all wiki pages) + brewing-domain review.
 Pages updated: roasting/entities/scott-rao (merged), brewing/concepts/neo-switch, brewing/entities/decent-espresso, wiki/index.md; deleted brewing/entities/scott-rao.
 
 ---
+
+## [2026-09-01] update | brewing | Overview redesign → input→recipe decision framework
+
+Full rewrite of [[brewing/overview]] (structural page), continuing the lint. The old page was two flat origin→parameter tables; it didn't enumerate the input set or show decision logic, and hadn't absorbed ~10 concepts added since 2026-08-02 (bed-depth, PSD, flow-resistance, clarity-pyramid, sandwich-extraction, espresso-shot-styles, flash-chill, etc.). Redesigned collaboratively with the user.
+
+**Model (agreed):** invariants (origin/varietal/roast/processing) *place* the coffee, they aren't decisions → pick **goal/method** → position on a **flavour plane**:
+- **X = balance**, driven by **extraction yield (EY)**: under→bright/sour · optimal→sweet · over→bitter. A real but *bounded* choice — always resolve to the juicy centre.
+- **Y = clarity ↔ body**: a **filtration/texture** axis, independent of EY — the one genuine stylistic choice; default = honour the processing.
+- **Z = strength (TDS)**: independent slider via ratio/bypass.
+- **Key framing:** the BCC *is* the X×Z plane (EY×TDS); this page adds **Y**, the texture axis the BCC omits. Only X is EY.
+
+**Steering rule:** set Y (structure: dripper/bed-depth/fines) first → dial X to balance (grind/temp/time) → set Z (ratio/bypass). The grind+agitation X↔Y coupling is the one to respect. §4 lever→axis table maps every recent concept to which axis it moves. The tool-intrinsic tangle (dripper/bed-depth/grind/batch) resolves as a dependency chain inside "set Y," not four peer branches.
+
+**Structure:** §1 goal→method · §2 flavour plane (ASCII X–Y graphic + placement bullets) · §3 Z windows · §4 lever→axis table · §5 starting recipes (pour-over reframed to illustrative **origin×varietal×processing×roast** cells grounded in the varietal pages — Geisha/Kenya SL28/Ethiopia heirloom/Colombia/Brazil/Sumatra; espresso ratio roast-first) · §6 cold/iced · §7 BCC as backbone · §8 constants.
+
+**Deliberate scope calls:** water **deferred** (HK water near-neutral — not a working variable, not flagged as a gap); starting-recipe brew numbers framed honestly as conventional starting points (sensory/varietal placement is the grounded part); 2×2 plane for now (3×3 with explicit centre band deferred).
+
+Pages updated: brewing/overview (full rewrite).
+
+---
