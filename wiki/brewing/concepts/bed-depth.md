@@ -29,6 +29,8 @@ In an idealized **no-bypass** brew, changing **dripper diameter** while holding 
 
 **Net taste:** deeper beds give **more body, sweetness, and complexity** (even with light roast) and a **wider acceptable brew-time window** — i.e. more forgiving. Shallow/narrow beds are **finicky** and usually taste worse.
 
+Corroborated by practitioners: in the Harmony survey ([[brewing/sources/harmony-pourover-recipes-2026]]), Ben Rowe finds small doses (12–13 g — shallower bed) taste *"dialled down to 7/10 intensity,"* while others favour 12–13 g precisely for **clarity/less waste** — the same lever read toward opposite Y-goals.
+
 ## Depth cheat sheet (Gagné; 1:17, EG-1 lab sweet burrs)
 
 Both optimal **grind and brew time rise** with depth. Burr shifts are **relative µm** (absolute gaps don't transfer between grinders — or even EG-1 units).

@@ -89,6 +89,7 @@ Order: **set Y first** (structure; low cross-talk, set once) → **dial X to bal
 | Lever (pushed this way) | X — balance | Y — clarity ↔ body | Note |
 |---|---|---|---|
 | V60 / Origami / fast filter | — | → clarity | percolation |
+| [[concepts/flat-bottom-drippers\|Flat-bottom]] (Kalita / Orea / Pulsar) | slightly more EY (no-bypass) | → clarity + even / forgiving | pairs with fast filter |
 | Neo Switch / Graycano | — | → body | immersion / heat-sink |
 | [[concepts/bed-depth\|Bed depth]] deeper | slightly sweeter | → body + forgiving | pair with coarser grind |
 | Fewer fines / WDT / unimodal grinder | — | → clarity | grinder is a real lever ([[concepts/particle-size-distribution\|PSD]]) |

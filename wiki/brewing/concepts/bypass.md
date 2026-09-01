@@ -46,6 +46,8 @@ Bypass fraction = bypass water / final beverage
 
 The key move: **bypass changes TDS but not the numerator's product** — the solids were fixed the moment the water finished passing through the bed. Bypass only redistributes those solids across more liquid.
 
+Used the same way by pros: Sharon Ip brews a tight 1:13.5 for punchiness, then **adds water post-brew "if it tastes too cramped"** — bypass as an after-the-fact strength/clarity dial ([[sources/harmony-pourover-recipes-2026]]).
+
 **On the Brewing Control Chart, bypass is a straight vertical move.** In [[concepts/brewing-control-chart]] terms (TDS vertical, percent-extraction PE horizontal), the through-bed brew sits at one (PE, TDS) point; adding bypass lowers TDS at constant PE, sliding the cup **straight down** — away from the high-TDS bitter/astringent upper band toward the lower 'sweet'/cleaner zone. That is the chart-level reason a bypassed cup reads cleaner and sweeter without losing the sweetness that came from full extraction. The canonical relation `PE = [TDS/(1−TDS)]×(R_brew − R_abs)` with **R_abs ≈ 2.1** (the retention constant we estimated empirically as ~2.0–2.3 g/g) comes from the same source.
 
 ## Related Concepts

@@ -1557,3 +1557,17 @@ Full rewrite of [[brewing/overview]] (structural page), continuing the lint. The
 Pages updated: brewing/overview (full rewrite).
 
 ---
+
+## [2026-09-01] ingest | brewing | Harmony "Best Pourover Recipes 2026" (pro-recipe compilation)
+
+Practitioner survey (~11 competition-level pros, Harmony/Ben Rowe); commercial bias flagged; recipes as-stated. Ingested primarily as a **field-test of the new [[brewing/overview]] model** — the independent recipes cluster on the same reasoning.
+
+**Corroborations logged** (cross-linked into the existing pages): grind/PSD > temperature (Junchao, 600–800 µm) → [[brewing/concepts/particle-size-distribution]]; dose↔bed-depth (Ben: small dose = "7/10 intensity") → [[brewing/concepts/bed-depth]]; post-brew bypass (Sharon, 1:13.5 "too cramped") → [[brewing/concepts/bypass]]; roast→method (Gage Quinn: light = less soluble → percolation/hotter/wider), balance/"juicy" target, no-single-ideal, ratio-as-strength — noted in the source page vs the model.
+
+**New concept [[brewing/concepts/flat-bottom-drippers]]** — the one real gap the source surfaced. Collated the whole family (Kalita/Orea/FLO/Pulsar/Stagg) on **one page** (user's call — avoid a page per make); defining trait = reduced/**no-bypass** (→ even extraction + higher EY), positioned as a Y→clarity/forgiving lever that nudges X (EY) up; variation axes = size / shower screen / valve. Added a §4 overview lever row.
+
+**Disclosed bias (footnoted, per user):** flat-bottoms are under-covered because CK owns none (no first-hand logs); the "higher-EY / more-balanced" reputation is **forum hearsay** except Gagné's grounded Pulsar/bed-depth case; the plausible read (flat-bottom suits lightest roasts, over-extracts darker) is **provisional pending a hands-on experiment**. Water content in the source (APAX etc.) left **out of scope** (HK water near-neutral).
+
+Pages updated: brewing/sources/harmony-pourover-recipes-2026 (new), brewing/concepts/flat-bottom-drippers (new), brewing/overview (§4 lever row), brewing/concepts/{particle-size-distribution,bed-depth,bypass} (corroboration), wiki/index.md.
+
+---

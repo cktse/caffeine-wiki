@@ -49,6 +49,8 @@ To characterise a grinder you need **many PSDs across grind sizes** on the **sam
 
 The recent WBrC ingests treated fines as a practitioner lever in opposite directions — Nas Jaafar used **low-RPM to cut fines** ([[brewing/concepts/flow-resistance]]); Bavis Kwong **sieved fines out and re-layered them** for body/sweetness ([[brewing/concepts/sandwich-extraction]]). This source grounds *why*: the **fines fraction is a real, measurable grinder property** with a genuine mouthfeel-vs-clarity trade-off. It also **nuances** the "low-RPM = fewer fines" advice — Gagné finds RPM's PSD effect is grinder-specific, often just a grind-size shift.
 
+Independently echoed by working pros: in the Harmony survey ([[brewing/sources/harmony-pourover-recipes-2026]]), several — notably Junchao Huang (targets 600–800 µm, *"temperature is not the key factor… particle size distribution is"*) — rank **grind/PSD above temperature** as the primary extraction control.
+
 ## Key Sources
 - [[brewing/sources/gagne-grinder-psd-analysis-2023]] — Gagné's analysis of the Kaffeemacher/ZHAW 24-grinder, ~300-PSD dataset; unimodality vs uniformity; dial-in = dialing fines; over-shooting; burr geometry; high (practitioner-scientist + academic dataset)
 
