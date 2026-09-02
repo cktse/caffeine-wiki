@@ -1,9 +1,9 @@
 ---
 title: "Particle Size Distribution (Grinder Characterization)"
 domain: brewing
-tags: [grinder, particle-size-distribution, psd, fines, boulders, unimodality, uniformity, burr-geometry, conical, flat-burr, dial-in, espresso, mouthfeel, clarity, tri-lognormal]
-source_count: 1
-last_updated: 2026-08-31
+tags: [grinder, particle-size-distribution, psd, fines, boulders, unimodality, uniformity, burr-geometry, conical, flat-burr, dial-in, espresso, mouthfeel, clarity, tri-lognormal, share-of-fines, permeability]
+source_count: 2
+last_updated: 2026-09-02
 ---
 
 # Particle Size Distribution (Grinder Characterization)
@@ -39,9 +39,18 @@ To characterise a grinder you need **many PSDs across grind sizes** on the **sam
 
 **Geophysics doesn't transfer:** soil permeability (flow ∝ 10th-centile diameter²) fails to predict espresso puck resistance — espresso's high pressure reconfigures the puck (compression, fines migration/clogging) and different PSDs give different initial slurry viscosity.
 
+## Peer-reviewed backbone: "share of fines" (Smrke et al. 2024)
+
+A peer-reviewed ZHAW study ([[brewing/sources/smrke-fines-espresso-2024]], same lab/instrument as Gagné's dataset) isolates fines by **spiking sieved fines** into a fixed coffee and sweeping the **share of fines** — **Q₁₀₀µm**, the volume % of particles < 100 µm. Findings:
+
+- **Fines drive bed permeability → flow rate → extraction time** (rigorously, via PLSR on whole PSDs: +coeff < 150 µm, −coeff > 250 µm). This is the mechanism under Gagné's "dial-in = dialling the fines fraction."
+- **Fines act *only* via permeability — not extraction efficiency.** Spiking fines into a coarse grind gave the **same EY/time curve** as grinding finer; the extra surface area's effect on efficiency is **marginal**. So share-of-fines is chiefly a **flow/time** lever; it changes EY only *indirectly* (slower flow → longer time → more EY).
+- **No sensory penalty from fines** — higher Q₁₀₀µm didn't hurt Q-grader scores; +1–2 g fines were *among the best*. A partial myth-bust vs "fines = muddy" (espresso, single coffee, hedonic — see caveats on the source).
+- **Practical models:** predict **time** from (Q₁₀₀µm, X50); predict **EY** from (Q₁₀₀µm, X50, time). A single median is insufficient.
+
 ## Why it matters (extraction & sensory)
 
-- **Unimodality shapes espresso style** — average EY and the **clarity ↔ mouthfeel** balance. Low-fines/unimodal → cleaner, often lower body; more fines → more body/resistance but more astringency risk (the grind-size ceiling, [[shared/astringency]], [[brewing/concepts/espresso-fundamentals]]).
+- **Unimodality shapes espresso style** — average EY and the **clarity ↔ mouthfeel** balance. Low-fines/unimodal → cleaner, often lower body; more fines → more resistance/body. *Nuance (Smrke 2024):* in espresso the fines' primary role is **permeability/flow**, with **no measured sensory penalty** — the "more fines = astringent" belief is a *filter*-brew, suspended-particle claim ([[shared/astringency]] grind ceiling), not a proven espresso one.
 - **Grinder choice is a sensory lever**, not just "finer/coarser" — two grinders at the *same median* can pull very different shots because their fines fractions differ.
 - **Uniformity**'s taste role is still unproven (expected: higher uniformity → higher EY + clarity, little mouthfeel change).
 
@@ -52,6 +61,7 @@ The recent WBrC ingests treated fines as a practitioner lever in opposite direct
 Independently echoed by working pros: in the Harmony survey ([[brewing/sources/harmony-pourover-recipes-2026]]), several — notably Junchao Huang (targets 600–800 µm, *"temperature is not the key factor… particle size distribution is"*) — rank **grind/PSD above temperature** as the primary extraction control.
 
 ## Key Sources
+- [[brewing/sources/smrke-fines-espresso-2024]] — **peer-reviewed** (ZHAW, Sci. Rep.); defines Q₁₀₀µm (share of fines); fines → permeability/flow/time, **not** extraction efficiency; PLSR + predictive models; no sensory penalty; turbo aroma; **high**
 - [[brewing/sources/gagne-grinder-psd-analysis-2023]] — Gagné's analysis of the Kaffeemacher/ZHAW 24-grinder, ~300-PSD dataset; unimodality vs uniformity; dial-in = dialing fines; over-shooting; burr geometry; high (practitioner-scientist + academic dataset)
 
 ## Related Concepts

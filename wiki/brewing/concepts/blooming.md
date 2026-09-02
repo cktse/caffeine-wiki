@@ -2,7 +2,7 @@
 title: "Blooming (& Pour Structure)"
 domain: brewing
 tags: [pour-over, bloom, off-gassing, co2, extraction-yield, tds, pours, agitation, pour-turbulence, bed-filtration, high-and-dry, decaf]
-source_count: 1
+source_count: 2
 last_updated: 2026-09-02
 ---
 
@@ -30,6 +30,8 @@ Longer bloom **monotonically raises EY, TDS, and drawdown time** — but the **t
 - **"High and dry."** Too short a bloom on a gassy coffee leaves grounds under-saturated — floating, clinging to the wall, **not** giving up solubles and **not** joining the filter bed. Result: muddy, uneven cup even at lower EY.
 - **Even extraction reads as clarity + acidity.** Counter-intuitively, Kenya's **2 min** pull had the **highest EY *and* the most perceived acidity** — proper off-gassing → even extraction → vibrant, clean acidity. Under-bloomed 30 s was the muddiest. So bloom is an **X (balance)** lever *and* a **Y (clarity)** lever: it lifts EY and, done right, improves evenness.
 - Bed "swelling" during bloom is CO₂ release + water spacing the particles, **not** particles swelling (Samo Smrke, [[brewing/entities/zhaw-coffee-excellence-center|ZHAW]]).
+
+**Off-gassing also carries aroma away (peer-reviewed).** The same author's espresso study ([[brewing/sources/smrke-fines-espresso-2024]], Smrke et al. 2024) shows extraction isn't pure diffusion: **CO₂ degassing during brewing transports volatile compounds off** (before they dissolve), on top of pre-brew (grinding) desorption and post-brew evaporation. So a fuller bloom trades off — it degasses for even extraction, but aggressive/late CO₂ release is itself an aroma-loss channel. (In espresso, fast/low-yield "turbo" retains more fruity VOCs for the same reason.)
 
 ## Fewer pours = cleaner (the bed is a filter)
 
@@ -62,6 +64,7 @@ Recipes that prescribe a grind size fail across grinders because **fines fractio
 
 ## Key Sources
 - [[brewing/sources/hedrick-blooming-pours-2024]] — controlled bloom-time experiment (TDS/EY/sensory) + reasoning on pours and pour turbulence; high-medium (practitioner + data)
+- [[brewing/sources/smrke-fines-espresso-2024]] — peer-reviewed; CO₂ degassing + evaporation as aroma-loss channels (extraction ≠ pure diffusion); the off-gassing↔aroma trade-off; **high**
 
 ## Related Concepts
 - [[brewing/concepts/particle-size-distribution]] — fines drive drawdown/clogging; why grind-specific recipes don't transfer

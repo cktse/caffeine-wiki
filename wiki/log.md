@@ -1600,3 +1600,18 @@ Fix — split into three independent levers:
 Pages updated: brewing/overview (§4 table).
 
 ---
+
+## [2026-09-02] ingest | brewing | The Role of Fines in Espresso Extraction Dynamics (Smrke et al. 2024)
+
+**Peer-reviewed** (Sci. Rep./Nature; Smrke, Eiermann, Yeretzian @ ZHAW — same lab/Camsizer as Gagné's PSD dataset). Highest-credibility brewing source to date. No new pages/entities — it strengthens & refines existing concepts.
+
+- **Headline:** isolate fines by spiking sieved fines → sweep **share of fines (Q₁₀₀µm)**. Fines govern **bed permeability → flow → extraction time**, and act **ONLY** via permeability — spiking fines into a coarse grind gives the *same* EY/time curve as grinding finer; surface-area effect on efficiency is **marginal**. PLSR on whole PSDs confirms (+coeff <150µm, −coeff >250µm). Predictive models (time from Q₁₀₀µm+X50; EY from +time). Single median insufficient.
+- **Myth-refining:** **no sensory penalty** from higher fines (+1–2 g among the best) — the "fines = muddy/astringent" belief is a *filter* suspended-particle claim ([[shared/astringency]]), not proven for 9-bar espresso.
+- **Aroma:** aroma-vs-EY **non-linear** (4 VOC groups); extraction ≠ pure diffusion (losses via grinding desorption + **CO₂ degassing/crema** + post-extraction evaporation). **Turbo (fast/low-yield) retains fruity VOCs** → aroma-side rationale for turbo (cites Cameron 2020 = [[brewing/entities/christopher-hendon|Hendon]]). Peak sensory is coffee-specific (this coffee ~30s/19–20% EY, not turbo).
+- **Caveats:** single coffee/roast/grinder; fines *added* not native; sensory = one Q-grader hedonic (authors flag non-double-blind).
+
+Updated: [[brewing/concepts/particle-size-distribution]] (peer-reviewed backbone: Q₁₀₀µm, fines→permeability-not-EY, no-penalty nuance, models; src_count 1→2), [[brewing/concepts/espresso-fundamentals]] (turbo→fruity aroma retention, non-linear aroma; src_count 4→5), [[brewing/concepts/blooming]] (CO₂ off-gassing = aroma-loss channel; src_count 1→2), [[brewing/entities/zhaw-coffee-excellence-center]] (Smrke/Yeretzian paper), wiki/index.md.
+
+Pages updated: brewing/sources/smrke-fines-espresso-2024 (new), brewing/concepts/{particle-size-distribution,espresso-fundamentals,blooming}, brewing/entities/zhaw-coffee-excellence-center, wiki/index.md.
+
+---

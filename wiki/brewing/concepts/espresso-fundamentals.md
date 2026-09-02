@@ -2,8 +2,8 @@
 title: "Espresso Fundamentals"
 domain: brewing
 tags: [espresso, extraction, pressure, ratio, light-roast, blooming, allonge, turbo-shot, filter3, pre-infusion, astringency, quakers, channeling, cga, flow-rate, mass-loss, brew-ratio, transport, diffusion, filtration, suspension, grind-ceiling, solubility]
-source_count: 4
-last_updated: 2026-08-30
+source_count: 5
+last_updated: 2026-09-02
 ---
 
 # Espresso Fundamentals
@@ -126,6 +126,7 @@ High-flow short shot — gets the high-flow fruit acid emphasis without the long
 - High flow rate (Turbo Turbo variant: ~3.5 ml/sec) but stopped shorter than Allongé
 - Lower channeling risk than full Allongé
 - For: machines without Decent's adaptive flow profiling; imperfect puck prep situations; moderate fruit acid expression vs. full Allongé slap
+- **Why turbo tastes fruity — peer-reviewed aroma evidence (Smrke et al. 2024, [[brewing/sources/smrke-fines-espresso-2024]]):** fast, low-yield shots (< 10–15 s ≈ 17–18 % EY, > 80 % of max) **retain more highly-volatile, non-polar (fruity) aroma**, because there's less post-extraction loss (evaporation from flow/cup, worse the longer the shot). Aroma-vs-EY is **non-linear** — some VOCs *fall* with EY, others rise — so extraction ≠ pure diffusion, and "more extraction ≠ more aroma." Note the same study's Q-grader optimum for its coffee was **~30 s / 19–20 % EY**, not turbo — peak sensory is coffee/roast-specific.
 
 ### Filter3 (Decent Espresso specific)
 
@@ -209,6 +210,7 @@ See [[shared/astringency]] for the full filtration model, temperature and pressu
 - [[brewing/sources/rao-allonge-roast-flow-2025]] — Rao 2025 Decent Espresso masterclass; roast level → brew ratio decision table; flow rate × roast level mechanism; transport/diffusion framework; Allongé specifics (4.5 ml/sec, 26-27% EY); Turbo shot; extraction potential by roast degree; **high-medium (practitioner)**
 - [[brewing/sources/gagne-astringency-mechanism-2022]] — Gagné 2022 (coffeeadastra.com); filtration model for astringency; grind-size ceiling; pressure effect; 70°C experiment; decaf observation; **high-medium (practitioner-scientist)**
 - [[brewing/sources/rao-astringency-management-2020]] — Rao 2020 (scottrao.com); CGA as large molecule extracting less readily (reconciles with Gagné model); diagnostic decision tree (channeling → cupping test → roast batch comparison); **high-medium (practitioner)**
+- [[brewing/sources/smrke-fines-espresso-2024]] — Smrke et al. 2024 (Sci. Rep., ZHAW); **peer-reviewed**; fines → bed permeability/flow/time (not extraction efficiency); no sensory penalty; turbo (fast/low-yield) retains fruity VOCs; non-linear aroma-vs-EY; **high**
 
 ## Related Concepts
 - [[brewing/concepts/espresso-shot-styles]] — the *menu* view: ristretto→sprover as stock-machine recipes (ratio + grind); this page is the mechanistic *why*

@@ -8,7 +8,7 @@ domain: brewing
 
 ## What / Who
 
-The coffee research group at the **Zurich University of Applied Sciences (ZHAW)** — an academic centre for coffee science (extraction, analytics, sensory). **Marco Wellinger** is the researcher associated with its grinding/PSD analytics; **Samo Smrke** (food scientist) is also affiliated.
+The coffee research group at the **Zurich University of Applied Sciences (ZHAW)** — an academic centre for coffee science (extraction, analytics, sensory). **Marco Wellinger** is the researcher associated with its grinding/PSD analytics; **Samo Smrke** (food scientist) and **Chahan Yeretzian** (Centre head) publish its peer-reviewed extraction/aroma work.
 
 ## Relevance
 
@@ -16,8 +16,9 @@ Measured the **particle size distributions** for the Kaffeemacher 24-grinder stu
 
 ## Key Facts
 - Camsize X2 imaging PSDs across many grind sizes + dialled-in recipes, one 82-point natural Brazilian coffee (source: [[brewing/sources/gagne-grinder-psd-analysis-2023]]).
-- Smrke's colleagues (ZHAW) were credited by Gagné with identifying the likely astringency compound (see [[brewing/entities/jonathan-gagne]], [[shared/astringency]]).
+- **Smrke, Eiermann & Yeretzian (2024)** — peer-reviewed espresso-fines study (Sci. Rep.): defines the **share of fines (Q₁₀₀µm)**; fines → bed permeability/flow/time, not extraction efficiency; PTR-MS aroma work (turbo → fruity VOC retention) (source: [[brewing/sources/smrke-fines-espresso-2024]]).
+- Smrke's colleagues (ZHAW) were credited by Gagné with identifying the likely astringency compound (see [[brewing/entities/jonathan-gagne]], [[shared/astringency]]); Smrke also cited on bloom bed-swelling ([[brewing/concepts/blooming]]).
 
 ## Connections
 - [[brewing/entities/kaffeemacher]] — commissioned the measurements; [[brewing/entities/jonathan-gagne]] — analysed them
-- [[brewing/concepts/particle-size-distribution]]
+- [[brewing/concepts/particle-size-distribution]] · [[brewing/concepts/blooming]] · [[brewing/concepts/espresso-fundamentals]]
