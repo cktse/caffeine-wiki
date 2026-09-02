@@ -17,7 +17,8 @@ Author of the six-style espresso walkthrough ([[brewing/sources/every-espresso-r
 ## Key Facts
 - Demonstrates ristretto → sprover on one 9-bar machine, changing only ratio and grind (source: [[brewing/sources/every-espresso-recipe-explained-hedrick]]).
 - Personal preference: **turbo shots**, ~15–18% EY, prioritizing VOC/aromatic preservation (source: same).
+- Ran a controlled **bloom-time experiment** (30 s/1 min/2 min × 2 coffees, TDS/EY/blind sensory): longer bloom raises EY monotonically, but the taste optimum is **coffee-specific**; "fewer pours = cleaner" via bed filtration (source: [[brewing/sources/hedrick-blooming-pours-2024]] → [[brewing/concepts/blooming]]).
 
 ## Connections
 - Popularizers he cites: [[roasting/entities/scott-rao]] (allongé), [[brewing/entities/christopher-hendon]] (turbo), [[brewing/entities/matt-perger]] (sprover).
-- Related to [[brewing/concepts/espresso-shot-styles]], [[brewing/concepts/espresso-fundamentals]].
+- Related to [[brewing/concepts/espresso-shot-styles]], [[brewing/concepts/espresso-fundamentals]], [[brewing/concepts/blooming]].

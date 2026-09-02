@@ -49,6 +49,7 @@ Flat-bottoms are **under-covered in this wiki so far** — a deliberate, disclos
 ## Key Sources
 - [[sources/harmony-pourover-recipes-2026]] — multiple pros favour Kalita/Orea/FLO for balanced, forgiving, even extraction; flat-bottom trend; practitioner (commercial bias)
 - [[sources/gagne-bed-depth-2025]] — the grounded flat-bottom (Pulsar/no-bypass) source; diameter=batch, depth=flavour
+- [[sources/hedrick-blooming-pours-2024]] — practitioner caveats: Kalita can clog (needs open base / extra holes, e.g. SS/Orea); flat pucks have a near-static bottom-centre with side bypass → coarser grind + low water column; still prefers V60 for striated extraction
 
 ## Related Concepts
 - [[concepts/v60]] — the cone / bypass counterpart

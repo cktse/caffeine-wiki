@@ -90,15 +90,18 @@ Order: **set Y first** (structure; low cross-talk, set once) → **dial X to bal
 |---|---|---|---|
 | V60 / Origami / fast filter | — | → clarity | percolation |
 | [[concepts/flat-bottom-drippers\|Flat-bottom]] (Kalita / Orea / Pulsar) | slightly more EY (no-bypass) | → clarity + even / forgiving | pairs with fast filter |
-| Neo Switch / Graycano | — | → body | immersion / heat-sink |
+| Immersion / steep ([[concepts/neo-switch\|Switch]] closed, Clever) | rounds → sweeter | → body | long, even contact — the Switch's body mode |
+| Graycano (heat-sink cone) | — | → body | retains heat → sustains extraction (percolation, not immersion) |
 | [[concepts/bed-depth\|Bed depth]] deeper | slightly sweeter | → body + forgiving | pair with coarser grind |
 | Fewer fines / WDT / unimodal grinder | — | → clarity | grinder is a real lever ([[concepts/particle-size-distribution\|PSD]]) |
 | Front-discard / tail-cut | trims sharp front / bitter tail | → clarity | selection (Simon) |
 | Grind finer | more EY → sweeter (over: bitter) | → body (fines) + astringency risk | set Y first; grind then does mostly X |
-| Immersion / cold tail (Switch) | rounds → sweeter | → body | Kasuya devil / hybrid |
+| Cold tail / dual-temp finish (~65–70 °C) | tames bitter/astringent tail → sweeter finish | — (cleaner finish) | **independent of immersion** — a cooler final pour works on V60 too (Kasuya devil; Reshad log) |
 | Fast filter + finer grind | more EY → sweeter | → clarity | sweetness without astringency |
 | Water hotter | more EY → sweeter | — | scale by roast (93/88/83 °C) |
-| Longer contact / more agitation | more EY → sweeter | agitation muddies clarity | handle with care |
+| [[concepts/blooming\|Bloom]] longer | more EY → sweeter | evens the bed if degassed | taste optimum is **coffee-specific** (gassy/light → longer) |
+| Fewer pours | slightly less EY | → clarity (less bed disturbance) | + shorter drawdown; dial bloom instead |
+| Longer contact / more agitation | more EY → sweeter | agitation muddies clarity | turbulent = deep, laminar = shallow ([[concepts/blooming]]) |
 | Ratio tighter | — | — | strength **Z↑** — see §3 |
 | Bypass | — | — | strength **Z↓**; decouples from X |
 

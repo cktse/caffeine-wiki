@@ -1571,3 +1571,32 @@ Practitioner survey (~11 competition-level pros, Harmony/Ben Rowe); commercial b
 Pages updated: brewing/sources/harmony-pourover-recipes-2026 (new), brewing/concepts/flat-bottom-drippers (new), brewing/overview (§4 lever row), brewing/concepts/{particle-size-distribution,bed-depth,bypass} (corroboration), wiki/index.md.
 
 ---
+
+## [2026-09-02] ingest | brewing | Pour-Over Variables: Blooming & Pours (Hedrick 2024)
+
+Data-backed practitioner source (Lance Hedrick; controlled bloom-time experiment + reasoned pour comments). High-medium (real TDS/EY/blind-sensory, but n=3, single session, 2 coffees). Fills a real gap — the wiki had no blooming concept.
+
+- **New concept [[brewing/concepts/blooming]]** (& pour structure).
+  - **Bloom time = EY lever, with a twist:** 30 s→2 min raises EY/TDS/drawdown **monotonically** (+0.8–1.2 pp EY), but the **taste optimum is coffee-specific** — Peru (med-light) best at 30 s, Kenya (Nordic light, gassier) best at 2 min. Rule: gassier/lighter/fresher → longer bloom.
+  - **"High and dry"** off-gassing mechanism; and the counter-intuitive result that Kenya's 2 min (highest EY) had the **most acidity** — even extraction reads as clean acidity. Bloom is thus both an X and a Y lever.
+  - **Fewer pours = cleaner** (user-flagged; reasoned, no data): the coffee bed is a filter; each pour ejects more fines + clogs pores + lengthens drawdown → muddier/astringent. → minimise pours, dial the bloom.
+  - **Pour turbulence** (laminar/turbulent/droplet) as an agitation-depth lever; S-bloom/decaf/aging/dark-roast special cases; grinder-agnostic recipe rationale (fines vary → grind-specific recipes don't transfer).
+- **Cross-links:** overview §4 gained **Bloom** + **Fewer pours** lever rows (and a turbulent/laminar note); reciprocal notes on [[brewing/concepts/particle-size-distribution]], [[shared/astringency]] (bed-filtration), [[brewing/concepts/flat-bottom-drippers]] (Hedrick's Kalita-clog/V60-preference caveats); [[brewing/entities/lance-hedrick]] updated. Cites Samo Smrke ([[brewing/entities/zhaw-coffee-excellence-center|ZHAW]]) on bed-swelling = CO₂ release.
+- No new entities.
+
+Pages updated: brewing/sources/hedrick-blooming-pours-2024 (new), brewing/concepts/blooming (new), brewing/overview (§4 levers), brewing/entities/lance-hedrick, brewing/concepts/particle-size-distribution, shared/astringency, brewing/concepts/flat-bottom-drippers, wiki/index.md.
+
+---
+
+## [2026-09-02] lint | brewing | Overview §4 lever table — de-conflate immersion / cold tail
+
+User-flagged overlap. Two defects in the lever table: (1) **redundancy** — immersion→body was listed both in "Neo Switch / Graycano" and again in "Immersion / cold tail (Switch)"; (2) **conflation** — immersion (a contact-*mode* lever, needs a valve/vessel) and cold tail (a *temperature* finish lever, works on plain V60) are orthogonal mechanisms wrongly merged. Also, Graycano is a heat-sink *percolation* cone, not immersion.
+
+Fix — split into three independent levers:
+- **Immersion / steep** (Switch closed, Clever) — Y→body, rounds X.
+- **Graycano** (heat-sink cone) — Y→body via sustained heat (percolation, not immersion).
+- **Cold tail / dual-temp finish (~65–70 °C)** — an **independent** X/finish lever (tames bitter/astringent tail → sweeter finish), explicitly noted as not requiring immersion (a cooler final pour works on V60; Kasuya devil combines them but they're separable). Cousin of the existing front-discard/tail-cut lever (remove the tail vs gently extract it).
+
+Pages updated: brewing/overview (§4 table).
+
+---

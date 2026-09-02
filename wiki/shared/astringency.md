@@ -113,6 +113,7 @@ This implies:
 - [[roasting/concepts/roasting-parameters]] — CGA: underdevelopment leaves excess CGA → possible astringency via dissolved mechanism
 - [[brewing/entities/jonathan-gagne]] — originator of the filtration model
 - [[brewing/concepts/bed-depth]] — deeper beds improve filtration (surface-adsorption model); a narrow water column keeps microscopic velocity gentle → less astringency
+- [[brewing/concepts/blooming]] — the coffee bed as filter; fewer pours + a fully-degassed bed eject fewer fines → cleaner, less astringent
 - [[brewing/entities/decent-espresso]] — Filter3 and Blooming as high-EY low-astringency strategies consistent with Gagné's model
 
 ## Understanding Evolution (Timeline)

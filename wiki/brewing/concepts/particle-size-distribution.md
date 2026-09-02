@@ -61,6 +61,7 @@ Independently echoed by working pros: in the Harmony survey ([[brewing/sources/h
 - [[shared/astringency]] — finer grind → more liberated astringent particles (the ceiling)
 - [[brewing/concepts/dialing-in]] — grind-first adjustment; here, you're adjusting fines
 - [[brewing/concepts/bed-depth]] — deeper beds filter fines better; grind offsets pair with depth
+- [[brewing/concepts/blooming]] — fines drive drawdown/clogging; why grind-specific recipes don't transfer across grinders
 
 ## Open Questions
 - Metrics → taste mapping is unproven; need many more datasets to link unimodality/uniformity to specific sensory outcomes.
